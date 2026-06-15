@@ -53,7 +53,7 @@ PCB design files in [`pcb-design/`](pcb-design/).
 | Frequency | 921 MHz (AS923) |
 | TX power | 20 dBm |
 | Bandwidth | 125 kHz |
-| Spreading factor | **SF8** |
+| Spreading factor | **SF9** |
 | Coding rate | 4/8 |
 | Modem | LoRa, explicit header, CRC on |
 | Airtime | ≈ 107 ms / frame (11-byte payload) |
