@@ -56,7 +56,7 @@ PCB design files in [`pcb-design/`](pcb-design/).
 | Spreading factor | **SF9** |
 | Coding rate | 4/8 |
 | Modem | LoRa, explicit header, CRC on |
-| Airtime | ≈ 107 ms / frame (11-byte payload) |
+| Airtime | ≈ 250 ms / frame (11-byte payload) |
 
 ### Transmit triggering — ETSI CAM-style
 Instead of a fixed interval, a node broadcasts when its state has *changed
