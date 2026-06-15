@@ -1,0 +1,39 @@
+[Unit]
+Description=V2V Dashboard App (Flutter via flutter-pi)
+Documentation=https://github.com/ardera/flutter-pi
+After=multi-user.target network.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+
+# ⚠️ Edit "pi" jadi username Anda di Pi kalau berbeda
+User=pi
+Group=pi
+
+# Path ke binary flutter-pi (di /usr/local/bin setelah setup_pi.sh)
+# dan ke folder bundle (hasil deploy.sh)
+ExecStart=/usr/local/bin/flutter-pi /home/pi/v2v_app
+
+# Untuk release build (lebih cepat, tapi butuh AOT compile dulu — advanced):
+# ExecStart=/usr/local/bin/flutter-pi --release /home/pi/v2v_app
+
+WorkingDirectory=/home/pi/v2v_app
+
+# Auto-restart kalau crash
+Restart=on-failure
+RestartSec=5
+
+# Logs masuk journald — cek dengan: journalctl -u v2v-app -f
+StandardOutput=journal
+StandardError=journal
+
+# Akses ke device GPU (/dev/dri) dan input (/dev/input)
+SupplementaryGroups=video render input
+
+# Disable screen blanking via env (best effort)
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=multi-user.target
