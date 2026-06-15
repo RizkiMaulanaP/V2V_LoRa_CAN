@@ -329,13 +329,16 @@ _CMD_STRUCT = struct.Struct("<BBBfffBBB")
 
 def send_cmd(ser, cmd_type, alert_type=0, lat=0.0, lon=0.0,
              heading_deg=0.0, speed_kmh=0):
+    # Clamp to the byte range — never mask. A slightly-negative fused speed
+    # (UKF jitter near 0) would otherwise wrap to 255/254 on the wire and be
+    # broadcast as a bogus high speed to neighbours.
+    spd = max(0, min(255, int(round(speed_kmh))))
     body = struct.pack("<BBfffB", cmd_type, alert_type,
-                       float(lat), float(lon), float(heading_deg),
-                       int(speed_kmh) & 0xFF)
+                       float(lat), float(lon), float(heading_deg), spd)
     cksum = reduce(lambda a, b: a ^ b, body, 0)
     pkt = _CMD_STRUCT.pack(CMD_START, cmd_type, alert_type,
                            float(lat), float(lon), float(heading_deg),
-                           int(speed_kmh) & 0xFF, cksum, FRAME_END)
+                           spd, cksum, FRAME_END)
     ser.write(pkt)
 
 def handshake(ser) -> Optional[dict]:

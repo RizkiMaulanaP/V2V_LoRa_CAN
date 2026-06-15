@@ -12,7 +12,7 @@
 #define RF_FREQUENCY                921000000
 #define TX_OUTPUT_POWER             20     // dBm (SX1262 max 22; raised from 7 for link budget)
 #define LORA_BANDWIDTH              0
-#define LORA_SPREADING_FACTOR       8      // SF8: ~2x less airtime than SF9 (−3 dB range)
+#define LORA_SPREADING_FACTOR       9      // SF8: ~2x less airtime than SF9 (−3 dB range)
 #define LORA_CODINGRATE             4      // 4/8 (was 1=4/5): more FEC vs interference
 #define LORA_PREAMBLE_LENGTH        8
 #define LORA_SYMBOL_TIMEOUT         0
@@ -30,7 +30,7 @@
 #define CAM_HEAD_DEG    4.0f   // heading change that forces a broadcast
 #define CAM_SPEED_KMH   2      // speed change (km/h) that forces a broadcast
 #define EMERGENCY_COOLDOWN          3000   // ms
-#define NODE_ID  3
+#define NODE_ID  1
 
 
 // ==========================================
