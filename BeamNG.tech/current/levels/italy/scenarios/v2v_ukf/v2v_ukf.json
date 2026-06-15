@@ -1,0 +1,1 @@
+[{"difficulty":0,"name":"v2v_ukf","lapConfig":{},"forceNoCountDown":true,"authors":"BeamNGpy","vehicles":{"ego":{"startFocus":true,"playerUsable":true}},"prefabs":["levels/italy/scenarios/v2v_ukf/v2v_ukf.prefab.json"]}]

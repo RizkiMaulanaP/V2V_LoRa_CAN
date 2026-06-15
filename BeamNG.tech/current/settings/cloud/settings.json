@@ -1,0 +1,6 @@
+{
+  "cameraConfig":"{\"data\":[{\"enabled\":true,\"name\":\"orbit\"},{\"enabled\":true,\"name\":\"driver\"},{\"enabled\":true,\"name\":\"onboard.hood\"},{\"enabled\":false,\"name\":\"external\"},{\"enabled\":false,\"name\":\"relative\"},{\"enabled\":false,\"name\":\"chase\"},{\"enabled\":true,\"name\":\"crash\"},{\"enabled\":true,\"name\":\"noise\"},{\"enabled\":true,\"name\":\"onboard.driver\"},{\"enabled\":true,\"name\":\"unicycle\"},{\"enabled\":false,\"name\":\"topDown\"}],\"version\":1}",
+  "onlineFeatures":"disable",
+  "telemetry":"disable",
+  "uiUnits":"metric"
+}

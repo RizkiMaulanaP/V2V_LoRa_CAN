@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CrashRpt version="1403">
+    <CrashGUID>ada0b42c-2c09-4f13-9a02ec8b-a89f7ae8</CrashGUID>
+    <AppName>BeamNG.tech</AppName>
+    <AppVersion>0.38.5.0</AppVersion>
+    <ImageName>/home/rizkimapa/Games/BeamNG.tech.v0.38.5.0/BinLinux/BeamNG.tech.x64</ImageName>
+    <OperatingSystem>CachyOS Linux</OperatingSystem>
+    <OSIs64Bit>1</OSIs64Bit>
+    <SystemTimeUTC>Mar 25 2026 17:35:06</SystemTimeUTC>
+    <CustomProps>
+        <Prop name="H2" value="9E8F68E4ABDD28A49347784516E376A1B976" />
+        <Prop name="buildinfo" value="buildbot build 19602 on linuxbuildbot - 25/03/2026 - 17:34:45" />
+    </CustomProps>
+    <MemoryUsageKbytes>0</MemoryUsageKbytes>
+    <GeoLocation></GeoLocation>
+    <FileList>
+        <FileItem name="settings.postfxpreset.cs" description="PostFX Settings File" />
+        <FileItem name="beamng.log" description="BeamNG Log File" />
+        <FileItem name="beamng.1.log" description="BeamNG previous log file" />
+        <FileItem name="beamng.2.log" description="BeamNG previous log file" />
+        <FileItem name="beamng.3.log" description="BeamNG previous previous log file" />
+        <FileItem name="cefdev.log" description="CEF Log File" />
+        <FileItem name="cefrenderer.log" description="CEF Renderer Log File" />
+        <FileItem name="beamng-launcher.log" description="BeamNG Launcher Log File" />
+        <FileItem name="beamng-launcher.1.log" description="BeamNG Launcher previous log file" />
+        <FileItem name="beamng-launcher.2.log" description="BeamNG Launcher previous log file" />
+        <FileItem name="beamng-launcher.3.log" description="BeamNG Launcher previous previous log file" />
+        <FileItem name="beamng-dxDiag.txt" description="DXDiag File" />
+        <FileItem name="knownFiles.json" description="Sync metadata" />
+        <FileItem name="thirdparty.json" description="List of DLL loaded or hooking into the game" />
+        <FileItem name="game-settings.cs" description="Settings File TS" />
+        <FileItem name="settings.json" description="Settings file cloud" />
+        <FileItem name="settings.json" description="Settings file local" />
+        <FileItem name="db.json" description="local mod database file" />
+    </FileList>
+    <ProblemDescription />
+</CrashRpt>

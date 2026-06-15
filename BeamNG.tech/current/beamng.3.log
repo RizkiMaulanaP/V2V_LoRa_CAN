@@ -1,0 +1,1017 @@
+  0.25254|E|mountPaths| Cannot set up directory watchers for /home/rizkimapa/Games/BeamNG.tech.v0.38.5.0/. VFS updates will be affected. Original error: Invalid argument
+  0.25437|D|saveStoredVersion| Saving version '0.38.5.0' to ini file '/home/rizkimapa/.local/share/BeamNG/BeamNG.tech.ini'
+  0.38523|D|crashrpt| Installing crash reporter on path: /home/rizkimapa/Documents/V2V_LoRa_CAN/BeamNG.tech/current/temp/crashReports
+  0.57676|I|engine| Virtual Filesystem: user path: /home/rizkimapa/Documents/V2V_LoRa_CAN/BeamNG.tech/current/ (Command line argument (-userpath))
+  0.57678|D|main| H2 9E8F68E4ABDD28A49347784516E376A1B976
+  0.58888|I|init| Initializing platform...
+  0.59006|D|engine| initializing 115 modules (only displaying anything above 0.1 s)...
+  0.59007|D|gfx| GFX Init:
+  0.59008|D|gfx|    Null device found
+  0.65341|D|fmod| FMOD API version: 2.03.09
+  0.66565|D|sfx| Using default audio device: AkLIAM PD6 Digital Stereo (IEC958)
+  0.66841|D|_init| SFXFMODDevice FMOD Driver info:
+  0.66841|D|_init|  - id: 0
+  0.66841|D|_init|  - name: AkLIAM PD6 Digital Stereo (IEC958)
+  0.66842|D|_init|  - systemrate: 48000
+  0.66842|D|_init|  - speakermode: 'Stereo' (internal id=3)
+  0.66842|D|_init|  - speakermodechannels: 2
+  0.72129|D|sfx| Created FMOD device 'AkLIAM PD6 Digital Stereo (IEC958)'
+  0.72129|D|sfx|   CAPS_VoiceManagement
+  0.72151|D|sfx|    Provider: FMOD
+  0.72151|D|sfx|    Hardware: false
+  0.72151|D|sfx|    Buffers: 16
+  0.73973|I|GELua.| ============== GELUA VM loading ===============
+  0.85023|D|GELua.core_versionUpdate.| Current version: '"0.38.5.0.19602"' ('"0.38"'), last version: '"0.38.5.0.19602"' ('"0.38"'), newInstall: 'false'
+  0.85023|D|GELua.core_versionUpdate.| Folder cleanup skipped
+  0.85027|D|GELua.gameplay_missions_progress.| Loaded 0 condition types from 0 files.
+  0.85165|D|GELua.gameplay_missions_missions.| Loaded 2 procedural Mission Generators from 2 files.
+  0.85277|D|GELua.gameplay_missions_unlocks.| Loaded 10 condition types from 4 files.
+  0.85686|D|engine|  - GameEngineLua in 0.14 seconds
+  0.85689|D|engine| ... all modules loaded in 0.267 seconds
+  0.85729|D|init| OpenXR: Steam VR mode: disabled
+  0.85729|D|init| SaveData cloud sync status: inactive
+  0.94017|D|gfx| Available adapters: 2
+  0.94017|D|gfx|  - name:GPU (Vulkan), outputName:\\.\DISPLAY1, gfx:Vulkan, gpu:GPU
+  0.94018|D|gfx|  - name:GFX Null Device, outputName:, gfx:, gpu:
+  0.94018|D|gfx| Attempting to create GFX device 1: GPU (Vulkan) [with output \\.\DISPLAY1]
+  0.94018|D|gfx| shader model: 5.0 , available video modes: 28
+  0.94021|D|gfx| Device created, setting adapter and enumerating modes
+  0.96105|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+  0.96112|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+  1.12813|D|GELua._lua_ge_extensions_gameplay_missions_proceduralMissionGenerators_timeTrialMissions.| Hid 0 prodecural TimeTrials missions because they were hidden by real missions.
+  1.12855|D|GELua.gameplay_missions_missions.| Loaded 566 total missions: 529 from files, 37 from generators.
+  1.14387|D|GELua.| Processing 3352 files in 34 batches. Max batch size: 100
+  1.51431|I|GELua.core_vehiclePaints.| Found 199 paints, 0 paint collections, 6 multiPaintSetups in 1 paint libraries, 8 same-name paint names
+  1.66911|D|GELua.gameplay_missions_unlocks.| Processed unlock status of missions: 439/566 startable missions, 441/566 visible missions.
+  1.67585|I|GELua.TechCom| Started listening on 127.0.0.1/25252.
+  1.77113|D|vulkan| 27 supported Vk instance extensions: VK_EXT_headless_surface, VK_NV_display_stereo, VK_EXT_swapchain_colorspace, VK_EXT_display_surface_counter, VK_EXT_debug_utils, VK_EXT_debug_report, VK_EXT_acquire_xlib_display, VK_EXT_acquire_drm_display, VK_KHR_xlib_surface, VK_EXT_layer_settings, VK_KHR_device_group_creation, VK_KHR_display, VK_EXT_direct_mode_display, VK_KHR_external_semaphore_capabilities, VK_KHR_get_display_properties2, VK_KHR_get_physical_device_properties2, VK_KHR_surface_maintenance1, VK_LUNARG_direct_driver_loading, VK_KHR_external_memory_capabilities, VK_KHR_portability_enumeration, VK_KHR_get_surface_capabilities2, VK_EXT_surface_maintenance1, VK_KHR_xcb_surface, VK_KHR_external_fence_capabilities, VK_KHR_surface, VK_KHR_surface_protected_capabilities, VK_KHR_wayland_surface
+  1.77115|D|vulkan| The requested Vulkan instance extension does not appear to be supported, skipping extension: VK_NV_external_memory_capabilities
+  1.77213|D|vulkan| 12 Layers: VK_LAYER_LS_frame_generation, VK_LAYER_VALVE_steam_overlay_32, VK_LAYER_VALVE_steam_overlay_64, VK_LAYER_VALVE_steam_fossilize_32, VK_LAYER_VALVE_steam_fossilize_64, VK_LAYER_MANGOHUD_overlay_x86_64, VK_LAYER_NV_optimus, VK_LAYER_NV_present, VK_LAYER_MESA_anti_lag, VK_LAYER_MESA_device_select, VK_LAYER_ALVR_capture, VK_LAYER_KHRONOS_validation
+  1.77213|D|vulkan| Attempting to create vulkan instance with the following 7 instance extensions: VK_KHR_get_physical_device_properties2, VK_EXT_debug_utils, VK_KHR_surface, VK_KHR_external_memory_capabilities, VK_KHR_external_fence_capabilities, VK_KHR_external_semaphore_capabilities, VK_KHR_xlib_surface
+  1.78482|D|vulkan| Available vulkan devices:
+  1.78483|D|vulkan|  - name:Intel(R) Iris(R) Xe Graphics (ADL GT2) vendor:32902 version:109051908 type:Integrated
+  1.78483|D|vulkan|  - name:NVIDIA GeForce RTX 3060 Laptop GPU vendor:4318 version:2496561344 type:Discrete
+  1.78483|D|vulkan| Trying to locate a vulkan device with type: Discrete
+  1.78483|D|vulkan|  - Ignoring vulkan device with unsuitable type: name:Intel(R) Iris(R) Xe Graphics (ADL GT2) vendor:32902 version:109051908 type:Integrated
+  1.78483|D|vulkan|  - Found vulkan device with suitable type: name:NVIDIA GeForce RTX 3060 Laptop GPU vendor:4318 version:2496561344 type:Discrete
+  1.78518|D|vulkan| 273 supported Vk device extensions: VK_GOOGLE_hlsl_functionality1, VK_NVX_image_view_handle, VK_NVX_binary_import, VK_NV_viewport_swizzle, VK_NV_shading_rate_image, VK_NV_shader_subgroup_partitioned, VK_NV_shader_sm_builtins, VK_NV_shader_image_footprint, VK_NV_shader_atomic_float16_vector, VK_NV_scissor_exclusive, VK_NV_sample_mask_override_coverage, VK_NV_representative_fragment_test, VK_KHR_shader_fma, VK_GOOGLE_user_type, VK_EXT_buffer_device_address, VK_KHR_sampler_mirror_clamp_to_edge, VK_EXT_attachment_feedback_loop_layout, VK_KHR_video_maintenance2, VK_KHR_video_encode_h265, VK_EXT_present_timing, VK_KHR_video_decode_av1, VK_KHR_video_encode_h264, VK_KHR_8bit_storage, VK_KHR_ray_tracing_position_fetch, VK_EXT_legacy_vertex_attributes, VK_KHR_swapchain_mutable_format, VK_KHR_push_descriptor, VK_KHR_swapchain_maintenance1, VK_NVX_multiview_per_view_attributes, VK_KHR_video_decode_h264, VK_KHR_synchronization2, VK_KHR_format_feature_flags2, VK_EXT_shader_subgroup_ballot, VK_KHR_shared_presentable_image, VK_KHR_shader_untyped_pointers, VK_EXT_sampler_filter_minmax, VK_KHR_swapchain, VK_KHR_shader_subgroup_uniform_control_flow, VK_KHR_shader_subgroup_rotate, VK_KHR_shader_integer_dot_product, VK_EXT_dynamic_rendering_unused_attachments, VK_KHR_shader_float_controls, VK_KHR_workgroup_memory_explicit_layout, VK_KHR_shader_expect_assume, VK_KHR_relaxed_block_layout, VK_KHR_external_memory, VK_KHR_index_type_uint8, VK_EXT_line_rasterization, VK_EXT_ycbcr_image_arrays, VK_EXT_4444_formats, VK_KHR_shader_clock, VK_KHR_shader_atomic_int64, VK_KHR_shader_subgroup_extended_types, VK_EXT_queue_family_foreign, VK_KHR_unified_image_layouts, VK_EXT_provoking_vertex, VK_KHR_video_encode_queue, VK_EXT_custom_border_color, VK_KHR_robustness2, VK_KHR_ray_tracing_pipeline, VK_KHR_map_memory2, VK_EXT_border_color_swizzle, VK_NV_ray_tracing_invocation_reorder, VK_KHR_shader_float16_int8, VK_EXT_depth_clip_enable, VK_NV_cuda_kernel_launch, VK_KHR_external_memory_fd, VK_EXT_vertex_input_dynamic_state, VK_KHR_video_encode_quantization_map, VK_KHR_vertex_attribute_divisor, VK_KHR_pipeline_library, VK_EXT_image_sliced_view_of_3d, VK_KHR_dynamic_rendering_local_read, VK_KHR_uniform_buffer_standard_layout, VK_KHR_device_group, VK_KHR_descriptor_update_template, VK_EXT_display_control, VK_KHR_external_semaphore, VK_KHR_depth_stencil_resolve, VK_KHR_ray_query, VK_EXT_transform_feedback, VK_KHR_variable_pointers, VK_KHR_calibrated_timestamps, VK_KHR_separate_depth_stencil_layouts, VK_KHR_compute_shader_derivatives, VK_KHR_shader_bfloat16, VK_KHR_present_wait2, VK_KHR_vulkan_memory_model, VK_KHR_external_fence_fd, VK_KHR_video_queue, VK_KHR_video_decode_vp9, VK_KHR_deferred_host_operations, VK_KHR_pipeline_binary, VK_KHR_maintenance3, VK_KHR_shader_non_semantic_info, VK_KHR_maintenance6, VK_KHR_dedicated_allocation, VK_KHR_bind_memory2, VK_KHR_copy_memory_indirect, VK_KHR_imageless_framebuffer, VK_EXT_calibrated_timestamps, VK_KHR_maintenance7, VK_KHR_driver_properties, VK_KHR_copy_commands2, VK_KHR_ray_tracing_maintenance1, VK_KHR_acceleration_structure, VK_KHR_fragment_shader_barycentric, VK_KHR_draw_indirect_count, VK_KHR_maintenance1, VK_EXT_extended_dynamic_state3, VK_EXT_external_memory_host, VK_KHR_16bit_storage, VK_KHR_maintenance8, VK_EXT_attachment_feedback_loop_dynamic_state, VK_KHR_maintenance5, VK_KHR_shader_terminate_invocation, VK_EXT_separate_stencil_usage, VK_EXT_shader_atomic_float, VK_NV_cooperative_matrix2, VK_KHR_present_mode_fifo_latest_ready, VK_NV_cooperative_matrix, VK_KHR_shader_relaxed_extended_instruction, VK_KHR_get_memory_requirements2, VK_EXT_color_write_enable, VK_EXT_conditional_rendering, VK_KHR_video_decode_queue, VK_KHR_create_renderpass2, VK_KHR_fragment_shading_rate, VK_KHR_incremental_present, VK_KHR_depth_clamp_zero_one, VK_EXT_ycbcr_2plane_444_formats, VK_KHR_cooperative_matrix, VK_EXT_device_generated_commands, VK_EXT_blend_operation_advanced, VK_KHR_external_semaphore_fd, VK_KHR_present_id2, VK_NV_device_generated_commands_compute, VK_EXT_discard_rectangles, VK_KHR_global_priority, VK_EXT_pipeline_creation_feedback, VK_NV_dedicated_allocation, VK_KHR_storage_buffer_storage_class, VK_KHR_line_rasterization, VK_KHR_spirv_1_4, VK_EXT_pipeline_creation_cache_control, VK_KHR_maintenance10, VK_KHR_maintenance9, VK_KHR_multiview, VK_KHR_maintenance2, VK_KHR_shader_maximal_reconvergence, VK_EXT_pci_bus_info, VK_KHR_pipeline_executable_properties, VK_NV_viewport_array2, VK_KHR_present_id, VK_EXT_index_type_uint8, VK_EXT_depth_bias_control, VK_KHR_shader_float_controls2, VK_EXT_depth_clip_control, VK_EXT_opacity_micromap, VK_NV_disk_cache_utils, VK_EXT_depth_clamp_control, VK_EXT_descriptor_heap, VK_EXT_descriptor_indexing, VK_EXT_custom_resolve, VK_EXT_pageable_device_local_memory, VK_EXT_device_address_binding_report, VK_KHR_dynamic_rendering, VK_EXT_load_store_op_none, VK_EXT_device_fault, VK_EXT_swapchain_maintenance1, VK_EXT_extended_dynamic_state, VK_KHR_buffer_device_address, VK_KHR_load_store_op_none, VK_NV_geometry_shader_passthrough, VK_EXT_external_memory_dma_buf, VK_EXT_fragment_shader_interlock, VK_KHR_zero_initialize_workgroup_memory, VK_EXT_global_priority, VK_EXT_graphics_pipeline_library, VK_EXT_primitive_topology_list_restart, VK_EXT_hdr_metadata, VK_EXT_host_image_copy, VK_EXT_host_query_reset, VK_NV_descriptor_pool_overallocation, VK_EXT_image_2d_view_of_3d, VK_EXT_image_drm_format_modifier, VK_EXT_post_depth_coverage, VK_EXT_image_robustness, VK_EXT_image_view_min_lod, VK_AMD_buffer_marker, VK_EXT_inline_uniform_block, VK_EXT_map_memory_placed, VK_EXT_memory_budget, VK_EXT_memory_priority, VK_EXT_mesh_shader, VK_NV_cluster_acceleration_structure, VK_EXT_multi_draw, VK_EXT_mutable_descriptor_type, VK_EXT_nested_command_buffer, VK_EXT_physical_device_drm, VK_EXT_shader_uniform_buffer_unsized_array, VK_KHR_video_encode_intra_refresh, VK_NV_fragment_shading_rate_enums, VK_EXT_pipeline_library_group_handles, VK_KHR_present_wait, VK_EXT_scalar_block_layout, VK_EXT_pipeline_robustness, VK_EXT_present_mode_fifo_latest_ready, VK_EXT_primitives_generated_query, VK_EXT_subgroup_size_control, VK_EXT_private_data, VK_EXT_shader_module_identifier, VK_EXT_conservative_rasterization, VK_KHR_video_maintenance1, VK_EXT_ray_tracing_invocation_reorder, VK_EXT_shader_subgroup_vote, VK_EXT_robustness2, VK_KHR_external_fence, VK_EXT_depth_range_unrestricted, VK_NV_mesh_shader, VK_EXT_sample_locations, VK_EXT_shader_64bit_indexing, VK_EXT_memory_decompression, VK_EXT_shader_demote_to_helper_invocation, VK_EXT_shader_image_atomic_int64, VK_EXT_shader_replicated_composites, VK_KHR_timeline_semaphore, VK_EXT_shader_viewport_index_layer, VK_EXT_texel_buffer_alignment, VK_KHR_sampler_ycbcr_conversion, VK_EXT_tooling_info, VK_KHR_shader_draw_parameters, VK_EXT_shader_object, VK_EXT_vertex_attribute_divisor, VK_EXT_vertex_attribute_robustness, VK_KHR_maintenance4, VK_EXT_descriptor_buffer, VK_EXT_zero_initialize_device_memory, VK_EXT_global_priority_query, VK_NV_clip_space_w_scaling, VK_NV_compute_occupancy_priority, VK_NV_compute_shader_derivatives, VK_NV_cooperative_vector, VK_EXT_extended_dynamic_state2, VK_NV_device_diagnostic_checkpoints, VK_NV_copy_memory_indirect, VK_NV_corner_sampled_image, VK_NV_coverage_reduction_mode, VK_KHR_video_decode_h265, VK_NV_dedicated_allocation_image_aliasing, VK_NV_fragment_coverage_to_color, VK_NV_device_diagnostics_config, VK_NV_device_generated_commands, VK_NV_extended_sparse_address_space, VK_EXT_non_seamless_cube_map, VK_NV_fill_rectangle, VK_NV_fragment_shader_barycentric, VK_NV_framebuffer_mixed_samples, VK_NV_inherited_viewport_scissor, VK_NV_internal_nvpresent, VK_KHR_shader_quad_control, VK_NV_linear_color_attachment, VK_KHR_image_format_list, VK_NV_low_latency, VK_NV_ray_tracing_motion_blur, VK_NV_low_latency2, VK_EXT_depth_clamp_zero_one, VK_NV_memory_decompression, VK_NV_optical_flow, VK_NV_partitioned_acceleration_structure, VK_NV_present_metering, VK_NV_raw_access_chains, VK_NV_ray_tracing
+  1.78526|D|vulkan| Attempting to create vulkan device with the following 27 vulkan device extensions: VK_KHR_swapchain, VK_EXT_memory_budget, VK_EXT_memory_priority, VK_NV_device_diagnostic_checkpoints, VK_EXT_robustness2, VK_KHR_fragment_shader_barycentric, VK_EXT_pageable_device_local_memory, VK_KHR_ray_query, VK_KHR_ray_tracing_pipeline, VK_KHR_acceleration_structure, VK_KHR_deferred_host_operations, VK_KHR_get_memory_requirements2, VK_KHR_external_memory_fd, VK_KHR_external_semaphore_fd, VK_KHR_external_fence_fd, VK_KHR_image_format_list, VK_KHR_external_memory, VK_KHR_external_fence, VK_KHR_external_semaphore, VK_KHR_dedicated_allocation, VK_EXT_queue_family_foreign, VK_KHR_bind_memory2, VK_KHR_create_renderpass2, VK_KHR_maintenance2, VK_KHR_multiview, VK_KHR_push_descriptor, VK_KHR_timeline_semaphore
+  2.24821|D|vulkan| Created Vulkan device from NVIDIA GeForce RTX 3060 Laptop GPU
+  2.24941|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'maxTextureWidth' to 8192.
+  2.24941|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'maxTextureHeight' to 8192.
+  2.24941|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'maxTextureSize' to 8192.
+  2.24942|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'autoMipMapLevel' to 1.
+  2.24942|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'lerpDetailBlend' to 1.
+  2.24942|D|gfx| GFXCardProfiler (Vulkan) - Setting capability 'fourStageDetailBlend' to 1.
+  2.35925|D|initShaderGen| Failed to remove file /temp/shaders/procedural/autogenConditioners.h
+  2.36295|D|vulkan| Vulkan render initialized
+  2.36299|I|vulkan| Driver Name: NVIDIA
+  2.36300|I|vulkan| Driver Info: 595.58.03
+  2.43098|D|GELua.core_settings_graphic.graphic| Sanitizing display - //./DISPLAY1: Passed.
+  2.43098|D|GELua.core_settings_graphic.graphic| Sanitizing display mode - Window: Passed.
+  2.43099|D|GELua.core_settings_graphic.graphic| Sanitizing display resolution for Window mode - 1280 720: Passed.
+  2.45007|D|imgui| Loading 13 imgui fonts...
+  2.45012|D|imgui| Adding fonts to imgui:
+  2.45097|D|imgui| 	'cairo_bold'->'ui/common/Cairo-Bold.ttf' Scale: 1.3  RangeCount: 3
+  2.45186|D|imgui| 	'cairo_regular'->'ui/common/Cairo-Regular.ttf' Scale: 1.3  RangeCount: 3
+  2.45196|D|imgui| 	'cairo_regular_medium'->'ui/common/Cairo-Regular.ttf' Scale: 1.8  RangeCount: 3
+  2.45261|D|imgui| 	'cairo_semibold_large'->'ui/common/Cairo-SemiBold.ttf' Scale: 2  RangeCount: 3
+  2.45347|D|imgui| 	'consola_regular'->'ui/common/win/consola.ttf' Scale: 1  RangeCount: 4
+  2.45450|D|imgui| 	'icons'->'ui/common/fa-solid-900.ttf' Scale: 3  RangeCount: 1
+  2.45944|D|imgui| 	'notosans_jp_regular'->'ui/common/NotoSansJP-Regular.otf' Scale: 1  RangeCount: 3004
+  2.46222|D|imgui| 	'notosans_kr_regular'->'ui/common/NotoSansKR-Regular.otf' Scale: 1  RangeCount: 3
+  2.47001|D|imgui| 	'notosans_sc_regular'->'ui/common/NotoSansSC-Regular.otf' Scale: 1  RangeCount: 2506
+  2.47530|D|imgui| 	'notosans_tc_regular'->'ui/common/NotoSansTC-Regular.otf' Scale: 1  RangeCount: 7
+  2.47599|D|imgui| 	'prompt_regular'->'ui/common/Prompt-Regular.ttf' Scale: 1  RangeCount: 3
+  2.47668|D|imgui| 	'robotomono_regular'->'ui/common/RobotoMono-Regular.ttf' Scale: 1  RangeCount: 4
+  2.47816|D|imgui| 	'segoeui_regular'->'ui/common/win/segoeui.ttf' Scale: 1  RangeCount: 4
+  2.47864|D|getImFontAtlasHash| atlas->Flags: 0
+  2.47865|D|getImFontAtlasHash| atlas->TexDesiredWidth: 0
+  2.47865|D|getImFontAtlasHash| atlas->TexGlyphPadding: 1
+  2.47865|D|getImFontAtlasHash| atlas->TexPixelsUseColors: false
+  2.47865|D|getImFontAtlasHash| atlas->Fonts.Size: 13
+  2.57242|D|load| imguiAtlas cache loaded GE=0.38.5.0.19602 imgui=1.89.8 WIP
+  2.57299|D|imgui| font texture contains 13 fonts. Atlas size: 4096x16384px
+  2.57300|D|imgui|  - cairo_bold           [24.3 px]:    292 glyphs
+  2.57300|D|imgui|  - cairo_regular        [24.3 px]:    292 glyphs
+  2.57300|D|imgui|  - cairo_regular_medium [33.7 px]:    292 glyphs
+  2.57300|D|imgui|  - cairo_semibold_large [37.4 px]:    292 glyphs
+  2.57300|D|imgui|  - consola_regular      [18.7 px]:    465 glyphs
+  2.57300|D|imgui|  - icons                [56.1 px]:     16 glyphs
+  2.57300|D|imgui|  - notosans_jp_regular  [18.7 px]:   3685 glyphs
+  2.57300|D|imgui|  - notosans_kr_regular  [18.7 px]:    388 glyphs
+  2.57300|D|imgui|  - notosans_sc_regular  [18.7 px]:   3220 glyphs
+  2.57301|D|imgui|  - notosans_tc_regular  [18.7 px]:  16064 glyphs
+  2.57301|D|imgui|  - prompt_regular       [18.7 px]:    299 glyphs
+  2.57301|D|imgui|  - robotomono_regular   [18.7 px]:    460 glyphs
+  2.57301|D|imgui|  - segoeui_regular      [18.7 px]:    465 glyphs
+  2.57301|D|imgui| 26230 glyphs totally
+  2.60121|D|_mapMaterial| [Material::mapMaterial] - Cannot map unnamed Material - settings/game-settings.cs
+  2.79810|I|GELua.| ============== GELUA VM loaded ================
+  3.07054|D|run| Started up in 3.16 seconds: fs: 338ms, crashrpt: 131ms, fs: 191ms, singletonThread: 6ms, platform: 6ms, modules: 268ms, TScmdline: 1942ms, cef2: 271ms
+  3.07055|W|run| Lua security sandbox not enabled! This can be dangerous if you are running untrusted Lua code.
+To hide this warning, run BeamNG with either the '-enable-sandbox' argument to enable the sandbox
+or with the '-disable-sandbox' argument to explicitly disable it.
+In future versions of BeamNG.tech, '-enable-sandbox' will become the default option.
+  3.30256|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.assets.bank' in 0.067 seconds. [Preload sample data]
+  3.38791|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.streams.bank' in 0.085 seconds. [Preload sample data]
+  3.47320|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle_preload.assets.bank' in 0.085 seconds. [Preload sample data]
+  3.55857|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle_preload.streams.bank' in 0.085 seconds. [Preload sample data]
+  3.60939|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.streams.bank' in 0.051 seconds. 
+  3.65008|D|fmod| Opened project '/art/sound/fmod/desktop/music.assets.bank' in 0.041 seconds. 
+  3.69590|D|fmod| Opened project '/art/sound/fmod/desktop/music.streams.bank' in 0.046 seconds. 
+  3.73704|D|fmod| Opened project '/art/sound/fmod/desktop/speech.assets.bank' in 0.041 seconds. 
+  3.77773|D|fmod| Opened project '/art/sound/fmod/desktop/speech.streams.bank' in 0.041 seconds. 
+  3.82349|D|fmod| Opened project '/art/sound/fmod/desktop/ui.assets.bank' in 0.046 seconds. 
+  3.86429|D|fmod| Opened project '/art/sound/fmod/desktop/ui.streams.bank' in 0.041 seconds. 
+  3.91010|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle.assets.bank' in 0.046 seconds. 
+  3.95069|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle.streams.bank' in 0.040 seconds. 
+  4.02805|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.strings.bank' in 0.077 seconds. [Preload sample data]
+  4.33706|D|fmod| Opened project '/art/sound/fmod/desktop/main_preload.bank' in 0.308 seconds. [Preload sample data]
+  4.70938|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle_preload.bank' in 0.371 seconds. [Preload sample data]
+  4.74045|D|fmod| Opened project '/art/sound/fmod/desktop/music.bank' in 0.030 seconds. 
+  4.78110|D|fmod| Opened project '/art/sound/fmod/desktop/speech.bank' in 0.040 seconds. 
+  4.82671|D|fmod| Opened project '/art/sound/fmod/desktop/ui.bank' in 0.045 seconds. 
+  4.95846|D|fmod| Opened project '/art/sound/fmod/desktop/vehicle.bank' in 0.131 seconds. 
+  5.01679|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+  5.01701|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+  5.11175|D|sfx| Using default audio device: AkLIAM PD6 Digital Stereo (IEC958)
+  5.11198|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 1
+  5.11199|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 2
+  5.11199|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 3
+  5.11200|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 4
+  5.11200|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 5
+  5.11200|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 6
+  5.11216|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 7
+  5.11216|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 8
+  5.11296|D|GELua.core_settings_settings.| refreshLanguages(): oldLanguage = ""  appliedLanguage = "" userLanguage = ""
+  5.11296|D|GELua.core_settings_settings.|        switching language.
+  5.21989|D|reloadLanguages| Could not load any language, falling back to 'en-US'
+  5.21989|I|reloadLanguages| Switched from '' language to 'en-US' (as fallback, after trying '')
+  5.22083|D|GELua.core_settings_settings.| set font: segoeui_regular
+  5.22195|D|GELua.core_settings_graphic.graphic| Sanitizing display - //./DISPLAY1: Passed.
+  5.22196|D|GELua.core_settings_graphic.graphic| Sanitizing display mode - Window: Passed.
+  5.22196|D|GELua.core_settings_graphic.graphic| Sanitizing display resolution for Window mode - 1920 1005: Passed.
+  5.22255|D|GELua.core_settings_graphic.graphic| Applying graphic settings: \\.\DISPLAY1, Window, 1920 x 1005 60 Hz
+  5.43775|D|GELua.core_settings_graphic.graphic| Available Video Modes : { "1920 1080", "1680 1050", "1600 900", "1440 1080", "1440 900", "1400 1050", "1368 768", "1280 1024", "1280 960", "1280 800", "1280 720", "1152 864", "1152 720", "1024 768", "1024 576", "960 600", "928 580", "864 486", "800 600", "800 500", "768 480", "720 480", "640 480" }
+  5.45845|D|sfx| Using default audio device: AkLIAM PD6 Digital Stereo (IEC958)
+  5.46405|I|GELua.telemetry_core.telemetry| Telemetry disabled via settings - operating in no-op mode
+  5.46447|D|GELua.core_modmanager.initDB| Notification : took 0.0011500000001163ms to reorganise 0 files
+  5.46448|D|GELua.core_modmanager.initDB| Notification : took 0.017373000000376ms to callback
+  5.47984|D|GELua.gameplay_rawPois.| Raw Poi Lists Cleared. New Generation: 9
+  5.48047|I|GELua.adas_gauge_light.modscript| adas_gauge_light loaded (BeamNG.tech)
+  5.51680|D|GELua.core_versionUpdate.| Saving lastVersion to disk: "0.38.5.0.19602"
+  5.64427|I|GELua.tech_techCore.TechGE| Accepted new client: 127.0.0.1/38616
+  5.73228|D|GELua.core_cameraModes_relative.core_camera.relative| No refNodes found, using default fallback
+  5.74329|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+  5.74349|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+  5.74569|D|GELua.tech_techCore.TechGE| Scenario file '/levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json' changed, refreshing scenario cache.
+  5.91382|D|GELua._lua_ge_extensions_gameplay_missions_proceduralMissionGenerators_timeTrialMissions.| Hid 0 prodecural TimeTrials missions because they were hidden by real missions.
+  5.91431|D|GELua.gameplay_missions_missions.| Loaded 566 total missions: 529 from files, 37 from generators.
+  5.93069|D|GELua.| Processing 3352 files in 34 batches. Max batch size: 100
+  6.42905|D|GELua.gameplay_missions_unlocks.| Processed unlock status of missions: 439/566 startable missions, 441/566 visible missions.
+  6.44251|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+  6.44259|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+  6.48461|I|GELua.tech_techCore.TechGE| Loading scenario: /levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json
+  6.48465|I|GELua.tech_techCore.TechGE| Scenario found...
+  6.52815|I|GELua.core_quickAccess.| Loaded radial menu recent actions
+  6.53438|D|GELua.ge_extensions_gameplay_crawl_boundary.crawl_boundary| Reset boundary objects tracking
+  6.54648|D|GELua.scenario_scenarios.scenarios| loading level: /levels/italy/
+  6.54650|D|GELua.core_gamestate.gamestate| loading screen request from: ; value before was: nil
+  6.54650|D|GELua.core_gamestate.gamestate| sending show loading screen
+  6.54652|D|GELua.core_gamestate.gamestate| ui initialised (false)
+  6.54652|D|GELua.core_gamestate.gamestate| waiting for ui (false)
+  6.54655|D|GELua.core_gamestate.gamestate| loading screen request from: server.lua; value before was: nil
+  6.54655|D|GELua.core_gamestate.gamestate| ui initialised (false)
+  6.54655|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+  6.54655|D|GELua.core_gamestate.gamestate| loading screen request from: worldReadyState; value before was: nil
+  6.54655|D|GELua.core_gamestate.gamestate| ui initialised (false)
+  6.54655|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+  6.54656|D|GELua.core_gamestate.gamestate| exiting : 
+  8.41093|W|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:26| Stream Coordinator: Angular $timeout service not available (no-injector)
+  8.48768|D|GELua.core_gamestate.gamestate| show main menu (true)
+  8.48770|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry
+  8.49366|D|GELua.core_gamestate.gamestate| ui finished loading
+  8.49367|D|GELua.core_gamestate.gamestate| wait for ui is over
+  8.51095|I|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:26| Stream Coordinator: Angular $timeout service resolved after retry
+  8.59493|D|CEF.MainGEUI#local://local/ui/modules/apps/app-container.js:194| Expected AppLayout but didn't get one :-(  [object Object]
+  8.65958|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+  8.65960|I|GELua.levelLoading| Level loading: '/levels/italy/'...
+  8.71091|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.assets.bank' in 0.051 seconds. 
+  8.79756|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.bank' in 0.054 seconds. 
+  9.08990|D|LoadingManager| Starting to load objects for /levels/italy/main/
+ 10.06402|D|LoadingManager| Loaded     1x    Terrain::TerrainBlock         in 0.897s (0.897s each; 0.897s total so far in this category)
+ 10.11766|D|LoadingManager| Loaded    11x Environment::GroundCover          in 0.027s (0.002s each; 0.054s total so far in this category)
+ 10.29163|D|forest| Read 206149 forest items split into 96 different types
+ 11.62639|D|LoadingManager| Loaded     1x     Forest::Forest               in 1.507s (1.507s each; 1.507s total so far in this category)
+ 24.53489|D|LoadingManager| Loaded 14148x     Meshes::TSStatic             in 12.908s (0.001s each; 12.908s total so far in this category)
+ 26.46081|D|LoadingManager| Loaded   217x    Prefabs::Prefab               in 1.926s (0.009s each; 1.926s total so far in this category)
+ 27.00273|D|LoadingManager| Loaded  7900x      Roads::DecalRoad            in 0.542s (0.000s each; 0.542s total so far in this category)
+ 27.71387|I|_onObjectsReady| *** Built static data in 0.681s
+ 27.71416|I|GELua.levelLoading| Level loaded: /levels/italy/main.level.json
+ 27.93341|I|PhysicsPlugin| Physics collision reloading...
+ 29.27372|I|libbeamng.engine.staticCollision| *** Loaded Static Collision in 0.674s, Verts: 7411670, Tris: 12828027, Memory: 499.44MB
+ 29.27382|I|PhysicsPlugin| Physics collision reloaded in 1.340s (245419 entries generated in 0.667s, using  2.81mb)
+ 29.27423|D|GELua.spawn.lua| not spawning player upon request
+ 29.27431|D|GELua.core_gamestate.gamestate| exiting : server.lua
+ 29.27435|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry
+ 29.27458|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy
+ 29.43487|D|GELua.clientStartMission| starting levelPath: /levels/italy/main.level.json
+ 29.46044|D|GELua.scenario_scenarios.scenarios| Starting scenario : v2v_telemetry
+ 29.46046|D|GELua.scenario_scenarios.scenarios| Scenario path : /levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json
+ 29.46058|D|GELua.scenario_scenarios.scenarios| spawning prefabs ...
+ 29.46086|D|GELua.lua| adding prefab v2v_telemetry
+ 29.46100|D|GELua.lua| loading prefab v2v_telemetry
+ 29.46118|I|spawn| Spawning object 'etk800' with default config
+ 29.57209|D|GELua.core_vehicle_manager.vehicleLoader| partConfigData [string] = ""
+ 29.57532|W|GELua.core_vehicle_partmgmt.| Problems reading requested configuration: ""
+ 29.57595|W|GELua.core_vehicle_partmgmt.main| Supplied config file: "" not found. Using default config instead.
+ 29.63651|D|GELua.jbeam.startLoading| Loaded nil parts from 0 jbeam files in /vehicles/etk800/
+ 29.97271|D|GELua.jbeam.startLoading| Loaded nil parts from 0 jbeam files in /vehicles/common/
+ 30.26805|I|collada|  # Mesh Cache rebuilt summary: 6 of 175 files freshly loaded, 0 files already in cache
+ 30.26806|I|collada| 587 of 3265 meshes loaded -> 17.98 % 
+ 30.31573|D|GELua.core_vehicle_manager.loader| GE load time: 0.755044304 s
+ 30.72081|D|GELua.core_cameraModes_relative.core_camera.relative| No refNodes found, using default fallback
+ 30.72103|D|GELua.core_camera.| Camera switched to "orbit"
+ 30.77985|D|libbeamng.default.init| spawning vehicle /vehicles/etk800/
+ 30.83442|D|libbeamng.loader| Vehicle loading took: 6.9327120000011 ms
+ 30.85838|D|libbeamng.controller.init| Using relocated controller controller 'vehicleController' at '/vehicleController/vehicleController.lua', original file path: '/vehicleController.lua'
+ 30.85841|D|libbeamng.controller.init| Using relocated controller controller 'adaptiveBrakeLights' at '/braking/adaptiveBrakeLights.lua', original file path: '/adaptiveBrakeLights.lua'
+ 30.85841|D|libbeamng.controller.init| Using relocated controller controller 'postCrashBrake' at '/braking/postCrashBrake.lua', original file path: '/postCrashBrake.lua'
+ 30.89189|E|GELua.scenario_scenarios.scenarios| Prefab: v2v_telemetry already exist in level. Rejecting loading of duplicate.
+ 30.89190|I|PhysicsPlugin| Physics collision reloading...
+ 31.42146|I|PhysicsPlugin| Physics collision reloaded in 0.530s (245419 entries generated in 0.529s, using  2.81mb)
+ 31.42149|D|GELua.scenario_scenarios.scenarios| changeState: pre-start
+ 31.42317|D|GELua.freeroam_facilities.| Loaded facilities on level italy (0 garages, 12 gasStations, 0 dealerships)
+ 32.25941|I|GELua.levelLoading| Loading screen disabled after 23.600s
+ 32.25943|I|GELua.levelLoading| Level loaded in 23.600s: init 0.171s + datablocks 0.033s + materials 0.226s + objects 18.632s + ai.map 0.000s + decals 0.212s + physics 1.340s + cam 0.000s + player 0.000s + fade 2.985s
+ 32.29392|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+ 32.29461|D|GELua.simTimeAuthority| pushPauseRequest id: menu.mainmenu, pauseCounter: 1
+ 32.29480|D|GELua.scenario_scenarios.scenarios| changeState: physicsPaused
+ 32.33002|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+ 32.35723|I|GELua.ui_uinavi.| No minimap data found in levels info.json. Creating minimap data from terrainblock data...
+ 32.41236|D|GELua.serverConnection| Everything should be loaded setting worldReadyState to 1
+ 33.15253|I|libbeamng.engine.staticCollision| *** Loaded Static Collision in 0.736s, Verts: 7411670, Tris: 12828027, Memory: 499.44MB
+ 33.35161|D|GELua.gameplay_playmodeMarkers.| Playmode markers/clusters cleared. New Generation: 9
+ 33.35679|D|GELua.gameplay_crawl_saveSystem.crawl_save_system| Found 0 trail files in path: /levels/italy/crawls/
+ 33.37137|D|GELua.gamestate| Checking material finished loading
+ 33.37138|D|GELua.core_gamestate.gamestate| exiting : worldReadyState
+ 33.37140|D|GELua.core_gamestate.gamestate| show main menu (false)
+ 33.37140|D|GELua.core_gamestate.gamestate| sending hide loading screen; showing main menu (false)
+ 34.51965|D|GELua.simTimeAuthority| popPauseRequest id: menu.mainmenu, pauseCounter: 0
+ 34.51970|D|GELua.scenario_scenarios.scenarios| changeState: pre-start
+ 34.57690|D|GELua.scenario_scenarios.processVehiclesInScene| processing vehicles. Found 1 vehicles
+ 34.57814|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+ 34.59586|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+ 34.59610|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+ 34.59612|D|inputHelper|           Found 0 FFB binding candidates to be assigned for action "steering" in vehicle 'etk800', vehicle ID 46291 (sorted by suitability)
+ 34.59612|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+ 34.59624|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+ 34.59625|D|inputHelper|           Found 1 FFB binding candidates to be assigned for action "accelerate" in vehicle 'etk800', vehicle ID 46291 (sorted by suitability)
+ 34.59625|D|inputHelper|            * playerBinding: Player 0, devName "keyboard0", control "up"
+ 34.59625|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+ 34.59625|D|inputHelper| Step 1: No matches found for player 0, device 'keyboard0', control 'up' (abandoning search on this device)
+ 34.59626|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+ 34.59627|D|inputHelper|           Found 1 FFB binding candidates to be assigned for action "brake" in vehicle 'etk800', vehicle ID 46291 (sorted by suitability)
+ 34.59627|D|inputHelper|            * playerBinding: Player 0, devName "keyboard0", control "down"
+ 34.59627|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+ 34.59627|D|inputHelper| Step 1: No matches found for player 0, device 'keyboard0', control 'down' (abandoning search on this device)
+ 34.59628|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+ 34.59796|D|GELua.scenario_scenarios.scenarios| vehicle id: 46291 = ego
+ 35.31679|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+ 35.32682|D|GELua.gameplay_playmodeMarkers.| Playmode clusters and markers cleared
+ 37.56099|I|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:23| ERROR: streamUpdate cycle is already active, skipping this update of streams
+ 37.61311|I|libbeamng.TechCom| Started listening on 127.0.0.1/43005.
+ 37.64823|I|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:23| ERROR: streamUpdate cycle is already active, skipping this update of streams
+ 37.65457|I|GELua.tech_techCore.TechGE| New vehicle connection: 46291, 43005
+ 37.98910|D|GELua.scenario_scenarios.scenarios| onScenarioUIReady(start)
+ 37.98935|D|GELua.scenario_scenarios.scenarios| changeState: pre-running
+ 37.98938|D|GELua.statistics_statistics.statistics| onRaceGoalsInitilised: called 
+ 37.98939|D|GELua.statistics_statistics.statistics| initialiseTables called...
+ 37.99680|I|GELua.scenario_waypoints.waypoints| initialise called....
+ 37.99681|I|GELua.scenario_waypoints.waypoints| No lapconfig found or lapconfig empty. Not initializing waypoints system
+ 37.99685|D|GELua.scenario_scenarios.scenarios| should run: false; state: pre-running
+ 38.19468|I|updateHTMLTextures| 46291:VehicleTex-@licenseplate-52-11-specular will destroy updateRequested true
+ 38.19469|I|updateHTMLTextures| 46291:VehicleTex-@licenseplate-52-11-normal will destroy updateRequested true
+ 38.19469|I|updateHTMLTextures| 46291:VehicleTex-@licenseplate-52-11 will destroy updateRequested true
+ 38.77080|I|libbeamng.TechVE| Accepted new vehicle client: 127.0.0.1/38798
+ 38.78539|D|GELua.scenario_scenarios.scenarios| changeState: running
+ 38.78544|D|GELua.core_camera.| Camera switched to "orbit"
+ 38.78577|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+ 38.78588|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+ 38.83203|D|GELua.tech_techCore.TechGE| Created sensor 0 of type 'IMU' with name 'imu'
+ 38.83205|I|GELua.tech_techCore.TechGE| Opened AdvancedIMU sensor
+ 38.84139|D|GELua.scenario_scenarios.scenarios| onScenarioUIReady(play)
+ 38.84142|D|GELua.scenario_scenarios.scenarios| should run: false; state: running
+ 38.87549|D|GELua.tech_techCore.TechGE| Created sensor 1 of type 'GPS' with name 'gps'
+ 38.87549|I|GELua.tech_techCore.TechGE| Opened GPS sensor
+ 38.94111|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.shiftermode
+ 38.94112|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.shiftermode transmissionM
+ 48.19629|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11-specular
+ 48.19629|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11-specular` rendered=0 requested=14 updateRequested=false
+ 48.20153|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11-normal
+ 48.20154|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11-normal` rendered=0 requested=14 updateRequested=false
+ 48.20272|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11
+ 48.20273|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11` rendered=0 requested=14 updateRequested=false
+ 53.50531|D|libbeamng.bdebugImpl.init| init
+ 53.53874|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory debug
+ 53.53876|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: debug code
+ 55.57109|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.shiftermode
+ 55.57110|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.shiftermode transmissionM
+ 60.20322|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory debug
+ 60.20324|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: debug code
+ 82.41631|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory recovery
+ 82.41634|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> no match, fallback to info
+ 82.45871|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.shiftermode
+ 82.45873|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.shiftermode transmissionM
+ 82.45874|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.ignition.ignitionLevel
+ 82.45910|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.ignition.ignitionLevel keys1
+ 82.45911|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.twoStep.status
+ 82.45912|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.twoStep.status signal04a
+ 82.45913|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.twoStep.status
+ 82.45913|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.twoStep.status signal04a
+ 82.45914|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.driveModes
+ 82.45914|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.driveModes ESC
+112.48694|E|GELua.TechCom| Error reading from socket: closed
+112.48697|E|GELua.TechCom| Error reading from socket: tcp{client}: 0x7f9d93b5ca20 - closed
+112.49269|E|libbeamng.TechCom| Error reading from socket: closed
+112.49372|E|libbeamng.TechCom| Error reading from socket: tcp{client}: 0x7f9bf87e6478 - closed
+116.30874|I|GELua.tech_techCore.TechGE| Accepted new client: 127.0.0.1/43498
+116.37600|D|GELua.tech_techCore.TechGE| Scenario file '/levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json' changed, refreshing scenario cache.
+116.42765|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+116.42782|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+116.48491|I|GELua.tech_techCore.TechGE| Loading scenario: /levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json
+116.48496|I|GELua.tech_techCore.TechGE| Scenario found...
+116.48497|D|GELua.scenario_scenariosLoader.scenariosLoader| Delaying start of scenario until current level is unloaded...
+116.48501|D|GELua.core_gamestate.gamestate| loading screen request from: serverConnection; value before was: nil
+116.48501|D|GELua.core_gamestate.gamestate| sending show loading screen
+116.48505|D|GELua.core_gamestate.gamestate| ui initialised (true)
+116.48505|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+117.58363|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+117.58372|I|GELua.server.lua| *** Level ended: /levels/italy/main.level.json
+117.62387|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with  
+117.68669|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+117.68700|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+121.00442|D|fmod| project_ambient_maps.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.bank'
+121.00456|D|fmod| project_ambient_maps.assets.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.assets.bank'
+121.30789|D|vfs| Empty path will be resolved to root but should not be used: '' -> ''
+121.30790|D|GELua.core_gamestate.gamestate| exiting : serverConnection
+121.30791|D|GELua.core_gamestate.gamestate| show main menu (true)
+121.30793|D|GELua.core_gamestate.gamestate| sending hide loading screen; showing main menu (true)
+121.30915|D|GELua.scenario_scenarios.scenarios| Unloading any scenario extensions
+121.30917|D|GELua.scenario_scenarios.scenarios| Can't unload scenario extension:{
+  name = "v2v_telemetry",
+  optional = true
+}
+121.30980|D|GELua.scenario_scenariosLoader.scenariosLoader| Triggering a delayed start of scenario...
+121.35282|I|GELua.core_quickAccess.| Loaded radial menu recent actions
+121.38482|D|GELua.ge_extensions_gameplay_crawl_boundary.crawl_boundary| Reset boundary objects tracking
+121.39551|D|GELua.scenario_scenarios.scenarios| loading level: /levels/italy/
+121.39552|D|GELua.core_gamestate.gamestate| loading screen request from: ; value before was: false
+121.39553|D|GELua.core_gamestate.gamestate| sending show loading screen
+121.39561|D|GELua.core_gamestate.gamestate| ui initialised (true)
+121.39561|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+121.39564|D|GELua.core_gamestate.gamestate| loading screen request from: server.lua; value before was: false
+121.39564|D|GELua.core_gamestate.gamestate| ui initialised (true)
+121.39564|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+121.39564|D|GELua.core_gamestate.gamestate| loading screen request from: worldReadyState; value before was: false
+121.39565|D|GELua.core_gamestate.gamestate| ui initialised (true)
+121.39565|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+121.39565|D|GELua.core_gamestate.gamestate| exiting : 
+121.51115|E|CEF.MainGEUI#local://local/ui/lib/ext/angular/angular.js:13920| TypeError: Cannot read properties of undefined (reading 'label')
+    at local://local/ui/modules/apps/RaceCheckPoints/app.js:21:21
+    at ChildScope.$eval (local://local/ui/lib/ext/angular/angular.js:17682:28)
+    at $applyAsyncExpression (local://local/ui/lib/ext/angular/angular.js:17822:17)
+    at flushApplyAsync (local://local/ui/lib/ext/angular/angular.js:18077:34)
+    at Scope.$digest (local://local/ui/lib/ext/angular/angular.js:17480:11)
+    at local://local/ui/lib/ext/angular/angular.js:17721:26
+    at completeOutstandingRequest (local://local/ui/lib/ext/angular/angular.js:5964:10)
+    at local://local/ui/lib/ext/angular/angular.js:6243:7
+127.57896|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+127.57897|I|GELua.levelLoading| Level loading: '/levels/italy/'...
+127.61600|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.assets.bank' in 0.037 seconds. 
+127.70297|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.bank' in 0.050 seconds. 
+128.08741|D|LoadingManager| Starting to load objects for /levels/italy/main/
+129.34323|D|LoadingManager| Loaded     1x    Terrain::TerrainBlock         in 1.143s (1.143s each; 1.143s total so far in this category)
+129.36378|D|LoadingManager| Loaded     1x Environment::ScatterSky           in 0.017s (0.017s each; 0.020s total so far in this category)
+129.37616|D|LoadingManager| Loaded     6x Environment::WaterBlock           in 0.012s (0.002s each; 0.033s total so far in this category)
+129.40846|D|LoadingManager| Loaded    11x Environment::GroundCover          in 0.025s (0.002s each; 0.065s total so far in this category)
+129.70791|D|forest| Read 206149 forest items split into 96 different types
+131.66004|D|LoadingManager| Loaded     1x     Forest::Forest               in 2.247s (2.247s each; 2.247s total so far in this category)
+147.60030|D|LoadingManager| Loaded 14148x     Meshes::TSStatic             in 15.940s (0.001s each; 15.940s total so far in this category)
+149.72777|D|LoadingManager| Loaded   217x    Prefabs::Prefab               in 2.127s (0.010s each; 2.127s total so far in this category)
+150.27672|D|LoadingManager| Loaded  7900x      Roads::DecalRoad            in 0.549s (0.000s each; 0.549s total so far in this category)
+150.94559|I|_onObjectsReady| *** Built static data in 0.642s
+150.94583|I|GELua.levelLoading| Level loaded: /levels/italy/main.level.json
+151.20318|I|PhysicsPlugin| Physics collision reloading...
+152.97165|I|libbeamng.engine.staticCollision| *** Loaded Static Collision in 0.809s, Verts: 7411670, Tris: 12828027, Memory: 499.44MB
+152.97174|I|PhysicsPlugin| Physics collision reloaded in 1.769s (245419 entries generated in 0.959s, using  2.81mb)
+152.97213|D|GELua.spawn.lua| not spawning player upon request
+152.97246|D|GELua.core_gamestate.gamestate| exiting : server.lua
+152.97251|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry
+152.97271|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy
+153.19963|D|GELua.clientStartMission| starting levelPath: /levels/italy/main.level.json
+153.22219|D|GELua.scenario_scenarios.scenarios| Starting scenario : v2v_telemetry
+153.22220|D|GELua.scenario_scenarios.scenarios| Scenario path : /levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json
+153.22225|D|GELua.scenario_scenarios.scenarios| spawning prefabs ...
+153.22253|D|GELua.lua| adding prefab v2v_telemetry
+153.22260|D|GELua.lua| loading prefab v2v_telemetry
+153.22283|I|spawn| Spawning object 'etk800' with default config
+153.31109|D|GELua.core_vehicle_manager.vehicleLoader| partConfigData [string] = ""
+153.31481|W|GELua.core_vehicle_partmgmt.| Problems reading requested configuration: ""
+153.31561|W|GELua.core_vehicle_partmgmt.main| Supplied config file: "" not found. Using default config instead.
+153.32048|D|GELua.jbeam.startLoading| Loaded nil parts from 0 jbeam files in /vehicles/etk800/
+153.32221|D|GELua.jbeam.startLoading| Loaded nil parts from 0 jbeam files in /vehicles/common/
+153.63845|I|collada|  # Mesh Cache rebuilt summary: 6 files already in cache, nothing loaded.
+153.69773|D|GELua.core_vehicle_manager.loader| GE load time: 0.386631389 s
+154.00632|D|GELua.core_cameraModes_relative.core_camera.relative| No refNodes found, using default fallback
+154.00664|D|GELua.core_camera.| Camera switched to "orbit"
+154.06480|D|libbeamng.default.init| spawning vehicle /vehicles/etk800/
+154.12049|D|libbeamng.loader| Vehicle loading took: 6.6254059999835 ms
+154.14637|D|libbeamng.controller.init| Using relocated controller controller 'vehicleController' at '/vehicleController/vehicleController.lua', original file path: '/vehicleController.lua'
+154.14641|D|libbeamng.controller.init| Using relocated controller controller 'adaptiveBrakeLights' at '/braking/adaptiveBrakeLights.lua', original file path: '/adaptiveBrakeLights.lua'
+154.14643|D|libbeamng.controller.init| Using relocated controller controller 'postCrashBrake' at '/braking/postCrashBrake.lua', original file path: '/postCrashBrake.lua'
+154.18149|E|GELua.scenario_scenarios.scenarios| Prefab: v2v_telemetry already exist in level. Rejecting loading of duplicate.
+154.18149|I|PhysicsPlugin| Physics collision reloading...
+154.76138|I|PhysicsPlugin| Physics collision reloaded in 0.580s (245419 entries generated in 0.580s, using  2.81mb)
+154.76146|D|GELua.scenario_scenarios.scenarios| changeState: pre-start
+154.76806|D|GELua.freeroam_facilities.| Loaded facilities on level italy (0 garages, 12 gasStations, 0 dealerships)
+155.64494|I|GELua.levelLoading| Loading screen disabled after 28.066s
+155.64495|I|GELua.levelLoading| Level loaded in 28.066s: init 0.163s + datablocks 0.014s + materials 0.332s + objects 22.865s + ai.map 0.000s + decals 0.250s + physics 1.769s + cam 0.000s + player 0.000s + fade 2.672s
+155.72205|I|GELua.ui_uinavi.| No minimap data found in levels info.json. Creating minimap data from terrainblock data...
+155.77553|D|GELua.serverConnection| Everything should be loaded setting worldReadyState to 1
+156.57286|I|libbeamng.engine.staticCollision| *** Loaded Static Collision in 0.794s, Verts: 7411670, Tris: 12828027, Memory: 499.44MB
+156.85332|D|GELua.gamestate| Checking material finished loading
+156.85336|D|GELua.core_gamestate.gamestate| exiting : worldReadyState
+156.85338|D|GELua.core_gamestate.gamestate| show main menu (false)
+156.85341|D|GELua.core_gamestate.gamestate| sending hide loading screen; showing main menu (false)
+157.99284|D|GELua.scenario_scenarios.processVehiclesInScene| processing vehicles. Found 1 vehicles
+157.99407|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+158.01518|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+158.01550|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+158.01552|D|inputHelper|           Found 0 FFB binding candidates to be assigned for action "steering" in vehicle 'etk800', vehicle ID 77097 (sorted by suitability)
+158.01553|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+158.01555|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+158.01556|D|inputHelper|           Found 1 FFB binding candidates to be assigned for action "accelerate" in vehicle 'etk800', vehicle ID 77097 (sorted by suitability)
+158.01556|D|inputHelper|            * playerBinding: Player 0, devName "keyboard0", control "up"
+158.01556|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+158.01556|D|inputHelper| Step 1: No matches found for player 0, device 'keyboard0', control 'up' (abandoning search on this device)
+158.01558|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+158.01558|D|inputHelper|           Found 1 FFB binding candidates to be assigned for action "brake" in vehicle 'etk800', vehicle ID 77097 (sorted by suitability)
+158.01559|D|inputHelper|            * playerBinding: Player 0, devName "keyboard0", control "down"
+158.01559|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+158.01559|D|inputHelper| Step 1: No matches found for player 0, device 'keyboard0', control 'down' (abandoning search on this device)
+158.01561|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+158.01781|D|GELua.scenario_scenarios.scenarios| vehicle id: 77097 = ego
+158.75091|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+158.75719|D|GELua.gameplay_playmodeMarkers.| Playmode clusters and markers cleared
+161.76440|I|updateHTMLTextures| 77097:VehicleTex-@licenseplate-52-11-specular will destroy updateRequested true
+161.76440|I|updateHTMLTextures| 77097:VehicleTex-@licenseplate-52-11-normal will destroy updateRequested true
+161.76441|I|updateHTMLTextures| 77097:VehicleTex-@licenseplate-52-11 will destroy updateRequested true
+161.89496|I|libbeamng.TechCom| Started listening on 127.0.0.1/39913.
+161.94742|I|GELua.tech_techCore.TechGE| New vehicle connection: 77097, 39913
+161.99939|D|GELua.scenario_scenarios.scenarios| onScenarioUIReady(start)
+161.99965|D|GELua.scenario_scenarios.scenarios| changeState: pre-running
+161.99968|D|GELua.statistics_statistics.statistics| onRaceGoalsInitilised: called 
+161.99968|D|GELua.statistics_statistics.statistics| initialiseTables called...
+162.00500|I|GELua.scenario_waypoints.waypoints| initialise called....
+162.00501|I|GELua.scenario_waypoints.waypoints| No lapconfig found or lapconfig empty. Not initializing waypoints system
+162.00507|D|GELua.scenario_scenarios.scenarios| should run: false; state: pre-running
+163.03473|I|libbeamng.TechVE| Accepted new vehicle client: 127.0.0.1/41112
+163.06903|D|GELua.scenario_scenarios.scenarios| changeState: running
+163.06908|D|GELua.core_camera.| Camera switched to "orbit"
+163.06975|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+163.06996|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+163.08690|D|GELua.scenario_scenarios.scenarios| onScenarioUIReady(play)
+163.08692|D|GELua.scenario_scenarios.scenarios| should run: false; state: running
+163.10743|D|GELua.tech_techCore.TechGE| Created sensor 2 of type 'IMU' with name 'imu'
+163.10746|I|GELua.tech_techCore.TechGE| Opened AdvancedIMU sensor
+163.16279|D|GELua.tech_techCore.TechGE| Created sensor 3 of type 'GPS' with name 'gps'
+163.16280|I|GELua.tech_techCore.TechGE| Opened GPS sensor
+163.45585|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.shiftermode
+163.45588|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.shiftermode transmissionM
+171.77063|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11-specular
+171.77063|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11-specular` rendered=0 requested=12 updateRequested=false
+171.78315|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11-normal
+171.78315|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11-normal` rendered=0 requested=12 updateRequested=false
+171.78474|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11
+171.78475|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11` rendered=0 requested=12 updateRequested=false
+369.13607|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory AI debug
+369.13697|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: AI debug AIMicrochip
+375.95175|E|GELua.TechCom| Error reading from socket: closed
+375.95181|E|GELua.TechCom| Error reading from socket: tcp{client}: 0x7f9c2c277b90 - closed
+375.95875|E|libbeamng.TechCom| Error reading from socket: closed
+375.95908|E|libbeamng.TechCom| Error reading from socket: tcp{client}: 0x7f9c45f09a90 - closed
+378.97166|I|GELua.tech_techCore.TechGE| Accepted new client: 127.0.0.1/44216
+379.03585|D|GELua.tech_techCore.TechGE| Scenario file '/levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json' changed, refreshing scenario cache.
+379.07673|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+379.07685|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+379.12287|I|GELua.tech_techCore.TechGE| Loading scenario: /levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json
+379.12293|I|GELua.tech_techCore.TechGE| Scenario found...
+379.12300|D|GELua.scenario_scenariosLoader.scenariosLoader| Delaying start of scenario until current level is unloaded...
+379.12302|D|GELua.core_gamestate.gamestate| loading screen request from: serverConnection; value before was: false
+379.12302|D|GELua.core_gamestate.gamestate| sending show loading screen
+379.12312|D|GELua.core_gamestate.gamestate| ui initialised (true)
+379.12313|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+380.23803|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+380.23822|I|GELua.server.lua| *** Level ended: /levels/italy/main.level.json
+380.31673|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with  
+380.34623|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+380.34644|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+384.04566|D|fmod| project_ambient_maps.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.bank'
+384.04593|D|fmod| project_ambient_maps.assets.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.assets.bank'
+384.42583|D|vfs| Empty path will be resolved to root but should not be used: '' -> ''
+384.42585|D|GELua.core_gamestate.gamestate| exiting : serverConnection
+384.42586|D|GELua.core_gamestate.gamestate| show main menu (true)
+384.42589|D|GELua.core_gamestate.gamestate| sending hide loading screen; showing main menu (true)
+384.42734|D|GELua.scenario_scenarios.scenarios| Unloading any scenario extensions
+384.42740|D|GELua.scenario_scenarios.scenarios| Can't unload scenario extension:{
+  name = "v2v_telemetry",
+  optional = true
+}
+384.42808|D|GELua.scenario_scenariosLoader.scenariosLoader| Triggering a delayed start of scenario...
+384.49048|I|GELua.core_quickAccess.| Loaded radial menu recent actions
+384.54297|D|GELua.ge_extensions_gameplay_crawl_boundary.crawl_boundary| Reset boundary objects tracking
+384.55225|D|GELua.scenario_scenarios.scenarios| loading level: /levels/italy/
+384.55225|D|GELua.core_gamestate.gamestate| loading screen request from: ; value before was: false
+384.55226|D|GELua.core_gamestate.gamestate| sending show loading screen
+384.55228|D|GELua.core_gamestate.gamestate| ui initialised (true)
+384.55228|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+384.55230|D|GELua.core_gamestate.gamestate| loading screen request from: server.lua; value before was: false
+384.55230|D|GELua.core_gamestate.gamestate| ui initialised (true)
+384.55257|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+384.55459|D|GELua.core_gamestate.gamestate| loading screen request from: worldReadyState; value before was: false
+384.55459|D|GELua.core_gamestate.gamestate| ui initialised (true)
+384.55460|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+384.55460|D|GELua.core_gamestate.gamestate| exiting : 
+384.72245|E|CEF.MainGEUI#local://local/ui/lib/ext/angular/angular.js:13920| TypeError: Cannot read properties of undefined (reading 'label')
+    at local://local/ui/modules/apps/RaceCheckPoints/app.js:21:21
+    at ChildScope.$eval (local://local/ui/lib/ext/angular/angular.js:17682:28)
+    at $applyAsyncExpression (local://local/ui/lib/ext/angular/angular.js:17822:17)
+    at flushApplyAsync (local://local/ui/lib/ext/angular/angular.js:18077:34)
+    at Scope.$digest (local://local/ui/lib/ext/angular/angular.js:17480:11)
+    at local://local/ui/lib/ext/angular/angular.js:17721:26
+    at completeOutstandingRequest (local://local/ui/lib/ext/angular/angular.js:5964:10)
+    at local://local/ui/lib/ext/angular/angular.js:6243:7
+390.23383|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+390.23384|I|GELua.levelLoading| Level loading: '/levels/italy/'...
+390.27101|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.assets.bank' in 0.037 seconds. 
+390.35430|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.bank' in 0.049 seconds. 
+390.81912|D|LoadingManager| Starting to load objects for /levels/italy/main/
+390.97142|D|LoadingManager| Loaded    65x       Base::CameraBookmark       in 0.019s (0.000s each; 0.029s total so far in this category)
+392.32976|D|LoadingManager| Loaded     1x    Terrain::TerrainBlock         in 1.358s (1.358s each; 1.358s total so far in this category)
+392.35679|D|LoadingManager| Loaded     1x Environment::ScatterSky           in 0.022s (0.022s each; 0.027s total so far in this category)
+392.36806|D|LoadingManager| Loaded     6x Environment::WaterBlock           in 0.011s (0.002s each; 0.038s total so far in this category)
+392.39348|D|LoadingManager| Loaded    11x Environment::GroundCover          in 0.021s (0.002s each; 0.064s total so far in this category)
+392.71160|D|forest| Read 206149 forest items split into 96 different types
+395.55017|D|LoadingManager| Loaded     1x     Forest::Forest               in 3.152s (3.152s each; 3.152s total so far in this category)
+412.56142|D|LoadingManager| Loaded 14148x     Meshes::TSStatic             in 17.011s (0.001s each; 17.011s total so far in this category)
+414.90804|D|LoadingManager| Loaded   217x    Prefabs::Prefab               in 2.347s (0.011s each; 2.347s total so far in this category)
+415.70287|D|LoadingManager| Loaded  7900x      Roads::DecalRoad            in 0.795s (0.000s each; 0.795s total so far in this category)
+415.75160|D|LoadingManager| Loaded     7x      Other::River                in 0.022s (0.003s each; 0.030s total so far in this category)
+416.48860|I|_onObjectsReady| *** Built static data in 0.727s
+416.48906|I|GELua.levelLoading| Level loaded: /levels/italy/main.level.json
+416.81211|I|PhysicsPlugin| Physics collision reloading...
+420.08583|I|libbeamng.engine.staticCollision| *** Loaded Static Collision in 1.443s, Verts: 7411670, Tris: 12828027, Memory: 499.44MB
+420.08595|I|PhysicsPlugin| Physics collision reloaded in 3.274s (245419 entries generated in 1.830s, using  2.81mb)
+420.08644|D|GELua.spawn.lua| not spawning player upon request
+420.08655|D|GELua.core_gamestate.gamestate| exiting : server.lua
+420.08679|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry
+420.08712|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy
+420.37536|D|GELua.clientStartMission| starting levelPath: /levels/italy/main.level.json
+420.40660|D|GELua.scenario_scenarios.scenarios| Starting scenario : v2v_telemetry
+420.40661|D|GELua.scenario_scenarios.scenarios| Scenario path : /levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json
+420.40667|D|GELua.scenario_scenarios.scenarios| spawning prefabs ...
+420.40734|D|GELua.lua| adding prefab v2v_telemetry
+420.40743|D|GELua.lua| loading prefab v2v_telemetry
+420.40832|I|spawn| Spawning object 'etk800' with default config
+420.50705|D|GELua.core_vehicle_manager.vehicleLoader| partConfigData [string] = ""
+420.51118|W|GELua.core_vehicle_partmgmt.| Problems reading requested configuration: ""
+420.51190|W|GELua.core_vehicle_partmgmt.main| Supplied config file: "" not found. Using default config instead.
+420.51533|D|GELua.jbeam.startLoading| Loaded nil parts from 0 jbeam files in /vehicles/etk800/
+420.51686|D|GELua.jbeam.startLoading| Loaded nil parts from 0 jbeam files in /vehicles/common/
+420.86325|I|collada|  # Mesh Cache rebuilt summary: 6 files already in cache, nothing loaded.
+420.96010|D|GELua.core_vehicle_manager.loader| GE load time: 0.45305120800003 s
+421.38642|D|GELua.core_cameraModes_relative.core_camera.relative| No refNodes found, using default fallback
+421.38669|D|GELua.core_camera.| Camera switched to "orbit"
+421.45389|D|libbeamng.default.init| spawning vehicle /vehicles/etk800/
+421.51580|D|libbeamng.loader| Vehicle loading took: 8.6793300000068 ms
+421.55276|D|libbeamng.controller.init| Using relocated controller controller 'vehicleController' at '/vehicleController/vehicleController.lua', original file path: '/vehicleController.lua'
+421.55338|D|libbeamng.controller.init| Using relocated controller controller 'adaptiveBrakeLights' at '/braking/adaptiveBrakeLights.lua', original file path: '/adaptiveBrakeLights.lua'
+421.55338|D|libbeamng.controller.init| Using relocated controller controller 'postCrashBrake' at '/braking/postCrashBrake.lua', original file path: '/postCrashBrake.lua'
+421.59602|E|GELua.scenario_scenarios.scenarios| Prefab: v2v_telemetry already exist in level. Rejecting loading of duplicate.
+421.59607|I|PhysicsPlugin| Physics collision reloading...
+422.23248|I|PhysicsPlugin| Physics collision reloaded in 0.636s (245419 entries generated in 0.636s, using  2.81mb)
+422.23263|D|GELua.scenario_scenarios.scenarios| changeState: pre-start
+422.23948|D|GELua.freeroam_facilities.| Loaded facilities on level italy (0 garages, 12 gasStations, 0 dealerships)
+423.43028|I|GELua.levelLoading| Loading screen disabled after 33.196s
+423.43031|I|GELua.levelLoading| Level loaded in 33.196s: init 0.160s + datablocks 0.010s + materials 0.416s + objects 25.674s + ai.map 0.000s + decals 0.319s + physics 3.274s + cam 0.000s + player 0.000s + fade 3.344s
+423.50495|I|GELua.ui_uinavi.| No minimap data found in levels info.json. Creating minimap data from terrainblock data...
+423.57335|D|GELua.serverConnection| Everything should be loaded setting worldReadyState to 1
+424.56202|I|libbeamng.engine.staticCollision| *** Loaded Static Collision in 0.983s, Verts: 7411670, Tris: 12828027, Memory: 499.44MB
+424.84938|D|GELua.gamestate| Checking material finished loading
+424.84939|D|GELua.core_gamestate.gamestate| exiting : worldReadyState
+424.84945|D|GELua.core_gamestate.gamestate| show main menu (false)
+424.84945|D|GELua.core_gamestate.gamestate| sending hide loading screen; showing main menu (false)
+426.00573|D|GELua.scenario_scenarios.processVehiclesInScene| processing vehicles. Found 1 vehicles
+426.00723|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+426.03292|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+426.03316|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+426.03320|D|inputHelper|           Found 0 FFB binding candidates to be assigned for action "steering" in vehicle 'etk800', vehicle ID 107845 (sorted by suitability)
+426.03320|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+426.03324|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+426.03325|D|inputHelper|           Found 1 FFB binding candidates to be assigned for action "accelerate" in vehicle 'etk800', vehicle ID 107845 (sorted by suitability)
+426.03325|D|inputHelper|            * playerBinding: Player 0, devName "keyboard0", control "up"
+426.03325|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+426.03325|D|inputHelper| Step 1: No matches found for player 0, device 'keyboard0', control 'up' (abandoning search on this device)
+426.03327|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+426.03327|D|inputHelper|           Found 1 FFB binding candidates to be assigned for action "brake" in vehicle 'etk800', vehicle ID 107845 (sorted by suitability)
+426.03327|D|inputHelper|            * playerBinding: Player 0, devName "keyboard0", control "down"
+426.03327|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+426.03327|D|inputHelper| Step 1: No matches found for player 0, device 'keyboard0', control 'down' (abandoning search on this device)
+426.03329|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+426.03551|D|GELua.scenario_scenarios.scenarios| vehicle id: 107845 = ego
+426.71236|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+426.71833|D|GELua.gameplay_playmodeMarkers.| Playmode clusters and markers cleared
+429.41608|I|libbeamng.TechCom| Started listening on 127.0.0.1/41863.
+429.44874|I|GELua.tech_techCore.TechGE| New vehicle connection: 107845, 41863
+429.54877|D|GELua.scenario_scenarios.scenarios| onScenarioUIReady(start)
+429.54905|D|GELua.scenario_scenarios.scenarios| changeState: pre-running
+429.54907|D|GELua.statistics_statistics.statistics| onRaceGoalsInitilised: called 
+429.54907|D|GELua.statistics_statistics.statistics| initialiseTables called...
+429.55507|I|GELua.scenario_waypoints.waypoints| initialise called....
+429.55508|I|GELua.scenario_waypoints.waypoints| No lapconfig found or lapconfig empty. Not initializing waypoints system
+429.55512|D|GELua.scenario_scenarios.scenarios| should run: false; state: pre-running
+429.61565|I|updateHTMLTextures| 107845:VehicleTex-@licenseplate-52-11-specular will destroy updateRequested true
+429.61565|I|updateHTMLTextures| 107845:VehicleTex-@licenseplate-52-11-normal will destroy updateRequested true
+429.61565|I|updateHTMLTextures| 107845:VehicleTex-@licenseplate-52-11 will destroy updateRequested true
+430.51375|I|libbeamng.TechVE| Accepted new vehicle client: 127.0.0.1/56438
+430.52434|D|GELua.scenario_scenarios.scenarios| changeState: running
+430.52508|D|GELua.core_camera.| Camera switched to "orbit"
+430.52584|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+430.52601|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+430.57194|D|GELua.tech_techCore.TechGE| Created sensor 4 of type 'IMU' with name 'imu'
+430.57195|I|GELua.tech_techCore.TechGE| Opened AdvancedIMU sensor
+430.58478|D|GELua.scenario_scenarios.scenarios| onScenarioUIReady(play)
+430.58480|D|GELua.scenario_scenarios.scenarios| should run: false; state: running
+430.60768|D|GELua.tech_techCore.TechGE| Created sensor 5 of type 'GPS' with name 'gps'
+430.60769|I|GELua.tech_techCore.TechGE| Opened GPS sensor
+430.89304|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.shiftermode
+430.89306|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.shiftermode transmissionM
+439.62856|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11-specular
+439.62857|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11-specular` rendered=0 requested=14 updateRequested=false
+439.64490|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11-normal
+439.64491|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11-normal` rendered=0 requested=14 updateRequested=false
+439.64687|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11
+439.64687|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11` rendered=0 requested=14 updateRequested=false
+492.81687|I|GELua.tech_techCore.TechGE| Accepted new client: 127.0.0.1/60914
+492.90200|D|GELua.tech_techCore.TechGE| Scenario file '/levels/italy/scenarios/v2v_ukf/v2v_ukf.json' changed, refreshing scenario cache.
+492.97490|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+492.97508|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+493.03179|I|GELua.tech_techCore.TechGE| Loading scenario: /levels/italy/scenarios/v2v_ukf/v2v_ukf.json
+493.03183|I|GELua.tech_techCore.TechGE| Scenario found...
+493.03185|D|GELua.scenario_scenariosLoader.scenariosLoader| Delaying start of scenario until current level is unloaded...
+493.03186|D|GELua.core_gamestate.gamestate| loading screen request from: serverConnection; value before was: false
+493.03187|D|GELua.core_gamestate.gamestate| sending show loading screen
+493.03197|D|GELua.core_gamestate.gamestate| ui initialised (true)
+493.03197|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+494.14500|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+494.14512|I|GELua.server.lua| *** Level ended: /levels/italy/main.level.json
+494.21570|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with  
+494.24478|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+494.24518|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+498.32357|D|fmod| project_ambient_maps.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.bank'
+498.32391|D|fmod| project_ambient_maps.assets.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.assets.bank'
+498.61215|D|vfs| Empty path will be resolved to root but should not be used: '' -> ''
+498.61217|D|GELua.core_gamestate.gamestate| exiting : serverConnection
+498.61218|D|GELua.core_gamestate.gamestate| show main menu (true)
+498.61220|D|GELua.core_gamestate.gamestate| sending hide loading screen; showing main menu (true)
+498.61324|D|GELua.scenario_scenarios.scenarios| Unloading any scenario extensions
+498.61327|D|GELua.scenario_scenarios.scenarios| Can't unload scenario extension:{
+  name = "v2v_telemetry",
+  optional = true
+}
+498.61368|D|GELua.scenario_scenariosLoader.scenariosLoader| Triggering a delayed start of scenario...
+498.65768|I|GELua.core_quickAccess.| Loaded radial menu recent actions
+498.67966|D|GELua.ge_extensions_gameplay_crawl_boundary.crawl_boundary| Reset boundary objects tracking
+498.68938|D|GELua.scenario_scenarios.scenarios| loading level: /levels/italy/
+498.68939|D|GELua.core_gamestate.gamestate| loading screen request from: ; value before was: false
+498.68940|D|GELua.core_gamestate.gamestate| sending show loading screen
+498.68944|D|GELua.core_gamestate.gamestate| ui initialised (true)
+498.68944|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+498.68947|D|GELua.core_gamestate.gamestate| loading screen request from: server.lua; value before was: false
+498.68947|D|GELua.core_gamestate.gamestate| ui initialised (true)
+498.68947|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+498.68947|D|GELua.core_gamestate.gamestate| loading screen request from: worldReadyState; value before was: false
+498.68947|D|GELua.core_gamestate.gamestate| ui initialised (true)
+498.68947|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+498.68947|D|GELua.core_gamestate.gamestate| exiting : 
+498.91609|E|CEF.MainGEUI#local://local/ui/lib/ext/angular/angular.js:13920| TypeError: Cannot read properties of undefined (reading 'label')
+    at local://local/ui/modules/apps/RaceCheckPoints/app.js:21:21
+    at ChildScope.$eval (local://local/ui/lib/ext/angular/angular.js:17682:28)
+    at $applyAsyncExpression (local://local/ui/lib/ext/angular/angular.js:17822:17)
+    at flushApplyAsync (local://local/ui/lib/ext/angular/angular.js:18077:34)
+    at Scope.$digest (local://local/ui/lib/ext/angular/angular.js:17480:11)
+    at local://local/ui/lib/ext/angular/angular.js:17721:26
+    at completeOutstandingRequest (local://local/ui/lib/ext/angular/angular.js:5964:10)
+    at local://local/ui/lib/ext/angular/angular.js:6243:7
+504.15343|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+504.15344|I|GELua.levelLoading| Level loading: '/levels/italy/'...
+504.19219|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.assets.bank' in 0.038 seconds. 
+504.27417|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.bank' in 0.052 seconds. 
+504.61928|D|LoadingManager| Starting to load objects for /levels/italy/main/
+505.95696|D|LoadingManager| Loaded     1x    Terrain::TerrainBlock         in 1.210s (1.210s each; 1.210s total so far in this category)
+505.97579|D|LoadingManager| Loaded     1x Environment::ScatterSky           in 0.016s (0.016s each; 0.019s total so far in this category)
+505.98597|D|LoadingManager| Loaded     6x Environment::WaterBlock           in 0.010s (0.002s each; 0.029s total so far in this category)
+506.01213|D|LoadingManager| Loaded    11x Environment::GroundCover          in 0.021s (0.002s each; 0.055s total so far in this category)
+506.28724|D|forest| Read 206149 forest items split into 96 different types
+508.66568|D|LoadingManager| Loaded     1x     Forest::Forest               in 2.649s (2.649s each; 2.649s total so far in this category)
+524.71085|D|LoadingManager| Loaded 14148x     Meshes::TSStatic             in 16.045s (0.001s each; 16.045s total so far in this category)
+526.86703|D|LoadingManager| Loaded   217x    Prefabs::Prefab               in 2.156s (0.010s each; 2.156s total so far in this category)
+527.39238|D|LoadingManager| Loaded  7900x      Roads::DecalRoad            in 0.525s (0.000s each; 0.525s total so far in this category)
+527.41209|D|LoadingManager| Loaded   382x      Audio::SFXSpace             in 0.014s (0.000s each; 0.018s total so far in this category)
+528.02180|I|_onObjectsReady| *** Built static data in 0.596s
+528.02205|I|GELua.levelLoading| Level loaded: /levels/italy/main.level.json
+528.28400|I|PhysicsPlugin| Physics collision reloading...
+530.01339|I|libbeamng.engine.staticCollision| *** Loaded Static Collision in 0.732s, Verts: 7411670, Tris: 12828027, Memory: 499.44MB
+530.01347|I|PhysicsPlugin| Physics collision reloaded in 1.729s (245419 entries generated in 0.997s, using  2.81mb)
+530.01381|D|GELua.spawn.lua| not spawning player upon request
+530.01386|D|GELua.core_gamestate.gamestate| exiting : server.lua
+530.01388|D|GELua.util_richPresence.Rich Presence| Playing v2v_ukf
+530.01416|D|GELua.util_richPresence.Rich Presence| Playing v2v_ukf on Italy
+530.22399|D|GELua.clientStartMission| starting levelPath: /levels/italy/main.level.json
+530.24819|D|GELua.scenario_scenarios.scenarios| Starting scenario : v2v_ukf
+530.24819|D|GELua.scenario_scenarios.scenarios| Scenario path : /levels/italy/scenarios/v2v_ukf/v2v_ukf.json
+530.24825|D|GELua.scenario_scenarios.scenarios| spawning prefabs ...
+530.24846|D|GELua.lua| adding prefab v2v_ukf
+530.24862|D|GELua.lua| loading prefab v2v_ukf
+530.24940|I|spawn| Spawning object 'etk800' with default config
+530.34046|D|GELua.core_vehicle_manager.vehicleLoader| partConfigData [string] = ""
+530.34344|W|GELua.core_vehicle_partmgmt.| Problems reading requested configuration: ""
+530.34420|W|GELua.core_vehicle_partmgmt.main| Supplied config file: "" not found. Using default config instead.
+530.34767|D|GELua.jbeam.startLoading| Loaded nil parts from 0 jbeam files in /vehicles/etk800/
+530.34925|D|GELua.jbeam.startLoading| Loaded nil parts from 0 jbeam files in /vehicles/common/
+530.61924|I|collada|  # Mesh Cache rebuilt summary: 6 files already in cache, nothing loaded.
+530.69355|D|GELua.core_vehicle_manager.loader| GE load time: 0.35309451700005 s
+531.00120|D|GELua.core_cameraModes_relative.core_camera.relative| No refNodes found, using default fallback
+531.00146|D|GELua.core_camera.| Camera switched to "orbit"
+531.06439|D|libbeamng.default.init| spawning vehicle /vehicles/etk800/
+531.12066|D|libbeamng.loader| Vehicle loading took: 7.7685439999868 ms
+531.14574|D|libbeamng.controller.init| Using relocated controller controller 'vehicleController' at '/vehicleController/vehicleController.lua', original file path: '/vehicleController.lua'
+531.14585|D|libbeamng.controller.init| Using relocated controller controller 'adaptiveBrakeLights' at '/braking/adaptiveBrakeLights.lua', original file path: '/adaptiveBrakeLights.lua'
+531.14598|D|libbeamng.controller.init| Using relocated controller controller 'postCrashBrake' at '/braking/postCrashBrake.lua', original file path: '/postCrashBrake.lua'
+531.17707|E|GELua.scenario_scenarios.scenarios| Prefab: v2v_ukf already exist in level. Rejecting loading of duplicate.
+531.17707|I|PhysicsPlugin| Physics collision reloading...
+531.73996|I|PhysicsPlugin| Physics collision reloaded in 0.563s (245419 entries generated in 0.563s, using  2.81mb)
+531.74001|D|GELua.scenario_scenarios.scenarios| changeState: pre-start
+531.74177|D|GELua.freeroam_facilities.| Loaded facilities on level italy (0 garages, 12 gasStations, 0 dealerships)
+532.63920|I|GELua.levelLoading| Loading screen disabled after 28.486s
+532.63922|I|GELua.levelLoading| Level loaded in 28.486s: init 0.179s + datablocks 0.012s + materials 0.275s + objects 23.408s + ai.map 0.000s + decals 0.257s + physics 1.730s + cam 0.000s + player 0.000s + fade 2.625s
+532.71399|I|GELua.ui_uinavi.| No minimap data found in levels info.json. Creating minimap data from terrainblock data...
+532.76250|D|GELua.serverConnection| Everything should be loaded setting worldReadyState to 1
+533.50252|I|libbeamng.engine.staticCollision| *** Loaded Static Collision in 0.737s, Verts: 7411670, Tris: 12828027, Memory: 499.44MB
+533.75504|D|GELua.gamestate| Checking material finished loading
+533.75505|D|GELua.core_gamestate.gamestate| exiting : worldReadyState
+533.75508|D|GELua.core_gamestate.gamestate| show main menu (false)
+533.75510|D|GELua.core_gamestate.gamestate| sending hide loading screen; showing main menu (false)
+534.65456|D|GELua.scenario_scenarios.processVehiclesInScene| processing vehicles. Found 1 vehicles
+534.65653|D|GELua.util_richPresence.Rich Presence| Playing v2v_ukf on Italy with ETK 800-Series
+534.68269|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+534.68294|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+534.68360|D|inputHelper|           Found 0 FFB binding candidates to be assigned for action "steering" in vehicle 'etk800', vehicle ID 138587 (sorted by suitability)
+534.68360|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+534.68363|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+534.68364|D|inputHelper|           Found 1 FFB binding candidates to be assigned for action "accelerate" in vehicle 'etk800', vehicle ID 138587 (sorted by suitability)
+534.68365|D|inputHelper|            * playerBinding: Player 0, devName "keyboard0", control "up"
+534.68365|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+534.68365|D|inputHelper| Step 1: No matches found for player 0, device 'keyboard0', control 'up' (abandoning search on this device)
+534.68366|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+534.68367|D|inputHelper|           Found 1 FFB binding candidates to be assigned for action "brake" in vehicle 'etk800', vehicle ID 138587 (sorted by suitability)
+534.68367|D|inputHelper|            * playerBinding: Player 0, devName "keyboard0", control "down"
+534.68367|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+534.68367|D|inputHelper| Step 1: No matches found for player 0, device 'keyboard0', control 'down' (abandoning search on this device)
+534.68368|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+534.68575|D|GELua.scenario_scenarios.scenarios| vehicle id: 138587 = ego
+535.29923|D|GELua.util_richPresence.Rich Presence| Playing v2v_ukf on Italy with ETK 800-Series
+535.30457|D|GELua.gameplay_playmodeMarkers.| Playmode clusters and markers cleared
+535.59988|E|GELua.TechCom| A fatal error encountered during handling the command: lua/ge/extensions/tech/sensors.lua:913: bad argument #1 to 'pairs' (table expected, got nil)
+537.55389|E|GELua.TechCom| Error reading from socket: closed
+537.55456|E|GELua.TechCom| Error reading from socket: tcp{client}: 0x7f9c2c312340 - closed
+537.60409|I|libbeamng.TechCom| Started listening on 127.0.0.1/41531.
+537.63793|I|GELua.tech_techCore.TechGE| New vehicle connection: 138587, 41531
+537.65468|D|GELua.scenario_scenarios.scenarios| onScenarioUIReady(start)
+537.65507|D|GELua.scenario_scenarios.scenarios| changeState: pre-running
+537.65509|D|GELua.statistics_statistics.statistics| onRaceGoalsInitilised: called 
+537.65510|D|GELua.statistics_statistics.statistics| initialiseTables called...
+537.66095|I|GELua.scenario_waypoints.waypoints| initialise called....
+537.66095|I|GELua.scenario_waypoints.waypoints| No lapconfig found or lapconfig empty. Not initializing waypoints system
+537.66102|D|GELua.scenario_scenarios.scenarios| should run: false; state: pre-running
+537.66520|I|GELua.tech_techCore.TechGE| Accepted new client: 127.0.0.1/50376
+537.77771|D|GELua.tech_techCore.TechGE| Scenario file '/levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json' changed, refreshing scenario cache.
+537.81755|W|GELua.core_levels.| info.json missing: /levels/GridMap/info.json
+537.81762|E|GELua.core_levels.| No entry point for level found: /levels/GridMap. Ignoring level.
+537.88051|I|GELua.tech_techCore.TechGE| Loading scenario: /levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json
+537.88055|I|GELua.tech_techCore.TechGE| Scenario found...
+537.88057|D|GELua.scenario_scenariosLoader.scenariosLoader| Delaying start of scenario until current level is unloaded...
+537.88058|D|GELua.core_gamestate.gamestate| loading screen request from: serverConnection; value before was: false
+537.88058|D|GELua.core_gamestate.gamestate| sending show loading screen
+537.88064|D|GELua.core_gamestate.gamestate| ui initialised (true)
+537.88065|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+538.53908|I|updateHTMLTextures| 138587:VehicleTex-@licenseplate-52-11-specular will destroy updateRequested true
+538.53908|I|updateHTMLTextures| 138587:VehicleTex-@licenseplate-52-11-normal will destroy updateRequested true
+538.53908|I|updateHTMLTextures| 138587:VehicleTex-@licenseplate-52-11 will destroy updateRequested true
+538.76328|I|libbeamng.TechVE| Accepted new vehicle client: 127.0.0.1/41488
+539.07450|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+539.07456|I|GELua.server.lua| *** Level ended: /levels/italy/main.level.json
+539.10118|D|GELua.util_richPresence.Rich Presence| Playing v2v_ukf on Italy with  
+539.12190|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+539.12220|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+541.59894|D|fmod| project_ambient_maps.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.bank'
+541.59905|D|fmod| project_ambient_maps.assets.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.assets.bank'
+541.82182|D|vfs| Empty path will be resolved to root but should not be used: '' -> ''
+541.82184|D|GELua.core_gamestate.gamestate| exiting : serverConnection
+541.82187|D|GELua.core_gamestate.gamestate| show main menu (true)
+541.82189|D|GELua.core_gamestate.gamestate| sending hide loading screen; showing main menu (true)
+541.82355|D|GELua.scenario_scenarios.scenarios| Unloading any scenario extensions
+541.82359|D|GELua.scenario_scenarios.scenarios| Can't unload scenario extension:{
+  name = "v2v_ukf",
+  optional = true
+}
+541.82418|D|GELua.scenario_scenariosLoader.scenariosLoader| Triggering a delayed start of scenario...
+541.87117|I|GELua.core_quickAccess.| Loaded radial menu recent actions
+541.89335|D|GELua.ge_extensions_gameplay_crawl_boundary.crawl_boundary| Reset boundary objects tracking
+541.90306|D|GELua.scenario_scenarios.scenarios| loading level: /levels/italy/
+541.90307|D|GELua.core_gamestate.gamestate| loading screen request from: ; value before was: false
+541.90307|D|GELua.core_gamestate.gamestate| sending show loading screen
+541.90310|D|GELua.core_gamestate.gamestate| ui initialised (true)
+541.90310|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+541.90324|D|GELua.core_gamestate.gamestate| loading screen request from: server.lua; value before was: false
+541.90324|D|GELua.core_gamestate.gamestate| ui initialised (true)
+541.90324|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+541.90325|D|GELua.core_gamestate.gamestate| loading screen request from: worldReadyState; value before was: false
+541.90325|D|GELua.core_gamestate.gamestate| ui initialised (true)
+541.90325|D|GELua.core_gamestate.gamestate| waiting for ui (true)
+541.90325|D|GELua.core_gamestate.gamestate| exiting : 
+549.09846|D|GELua.core_gamestate.gamestate| ui told us loading screen is now loaded
+549.09847|I|GELua.levelLoading| Level loading: '/levels/italy/'...
+549.13728|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.assets.bank' in 0.039 seconds. 
+549.22030|D|fmod| Opened project '/art/sound/fmod/desktop/ambient_maps.bank' in 0.049 seconds. 
+549.52002|D|LoadingManager| Starting to load objects for /levels/italy/main/
+550.76730|D|LoadingManager| Loaded     1x    Terrain::TerrainBlock         in 1.155s (1.155s each; 1.155s total so far in this category)
+550.80506|D|LoadingManager| Loaded    11x Environment::GroundCover          in 0.015s (0.001s each; 0.038s total so far in this category)
+550.99903|D|forest| Read 206149 forest items split into 96 different types
+552.72940|D|LoadingManager| Loaded     1x     Forest::Forest               in 1.921s (1.921s each; 1.921s total so far in this category)
+566.56526|D|LoadingManager| Loaded 14148x     Meshes::TSStatic             in 13.836s (0.001s each; 13.836s total so far in this category)
+568.57245|D|LoadingManager| Loaded   217x    Prefabs::Prefab               in 2.007s (0.009s each; 2.007s total so far in this category)
+569.08465|D|LoadingManager| Loaded  7900x      Roads::DecalRoad            in 0.512s (0.000s each; 0.512s total so far in this category)
+569.69152|I|_onObjectsReady| *** Built static data in 0.573s
+569.69174|I|GELua.levelLoading| Level loaded: /levels/italy/main.level.json
+569.90180|I|PhysicsPlugin| Physics collision reloading...
+571.21406|I|libbeamng.engine.staticCollision| *** Loaded Static Collision in 0.717s, Verts: 7411670, Tris: 12828027, Memory: 499.44MB
+571.21418|I|PhysicsPlugin| Physics collision reloaded in 1.312s (245419 entries generated in 0.595s, using  2.81mb)
+571.21445|D|GELua.spawn.lua| not spawning player upon request
+571.21449|D|GELua.core_gamestate.gamestate| exiting : server.lua
+571.21451|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry
+571.21460|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy
+571.40815|D|GELua.clientStartMission| starting levelPath: /levels/italy/main.level.json
+571.43621|D|GELua.scenario_scenarios.scenarios| Starting scenario : v2v_telemetry
+571.43625|D|GELua.scenario_scenarios.scenarios| Scenario path : /levels/italy/scenarios/v2v_telemetry/v2v_telemetry.json
+571.43633|D|GELua.scenario_scenarios.scenarios| spawning prefabs ...
+571.43644|D|GELua.lua| adding prefab v2v_telemetry
+571.43650|D|GELua.lua| loading prefab v2v_telemetry
+571.43803|I|spawn| Spawning object 'etk800' with default config
+571.51871|D|GELua.core_vehicle_manager.vehicleLoader| partConfigData [string] = ""
+571.52137|W|GELua.core_vehicle_partmgmt.| Problems reading requested configuration: ""
+571.52191|W|GELua.core_vehicle_partmgmt.main| Supplied config file: "" not found. Using default config instead.
+571.52545|D|GELua.jbeam.startLoading| Loaded nil parts from 0 jbeam files in /vehicles/etk800/
+571.52770|D|GELua.jbeam.startLoading| Loaded nil parts from 0 jbeam files in /vehicles/common/
+571.78619|I|collada|  # Mesh Cache rebuilt summary: 6 files already in cache, nothing loaded.
+571.83458|D|GELua.core_vehicle_manager.loader| GE load time: 0.31587659899992 s
+572.14120|D|GELua.core_cameraModes_relative.core_camera.relative| No refNodes found, using default fallback
+572.14151|D|GELua.core_camera.| Camera switched to "orbit"
+572.20521|D|libbeamng.default.init| spawning vehicle /vehicles/etk800/
+572.25484|D|libbeamng.loader| Vehicle loading took: 6.8351690000554 ms
+572.27929|D|libbeamng.controller.init| Using relocated controller controller 'vehicleController' at '/vehicleController/vehicleController.lua', original file path: '/vehicleController.lua'
+572.27930|D|libbeamng.controller.init| Using relocated controller controller 'adaptiveBrakeLights' at '/braking/adaptiveBrakeLights.lua', original file path: '/adaptiveBrakeLights.lua'
+572.27931|D|libbeamng.controller.init| Using relocated controller controller 'postCrashBrake' at '/braking/postCrashBrake.lua', original file path: '/postCrashBrake.lua'
+572.30984|E|GELua.scenario_scenarios.scenarios| Prefab: v2v_telemetry already exist in level. Rejecting loading of duplicate.
+572.30985|I|PhysicsPlugin| Physics collision reloading...
+572.87444|I|PhysicsPlugin| Physics collision reloaded in 0.565s (245419 entries generated in 0.564s, using  2.81mb)
+572.87450|D|GELua.scenario_scenarios.scenarios| changeState: pre-start
+572.88756|D|GELua.freeroam_facilities.| Loaded facilities on level italy (0 garages, 12 gasStations, 0 dealerships)
+573.77420|I|GELua.levelLoading| Loading screen disabled after 24.676s
+573.77421|I|GELua.levelLoading| Level loaded in 24.676s: init 0.160s + datablocks 0.011s + materials 0.250s + objects 20.178s + ai.map 0.000s + decals 0.204s + physics 1.312s + cam 0.000s + player 0.000s + fade 2.560s
+573.85863|I|GELua.ui_uinavi.| No minimap data found in levels info.json. Creating minimap data from terrainblock data...
+573.91107|D|GELua.serverConnection| Everything should be loaded setting worldReadyState to 1
+574.70377|I|libbeamng.engine.staticCollision| *** Loaded Static Collision in 0.789s, Verts: 7411670, Tris: 12828027, Memory: 499.44MB
+574.91515|D|GELua.gamestate| Checking material finished loading
+574.91516|D|GELua.core_gamestate.gamestate| exiting : worldReadyState
+574.91518|D|GELua.core_gamestate.gamestate| show main menu (false)
+574.91521|D|GELua.core_gamestate.gamestate| sending hide loading screen; showing main menu (false)
+575.68706|D|GELua.scenario_scenarios.processVehiclesInScene| processing vehicles. Found 1 vehicles
+575.69238|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+575.71562|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+575.71587|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+575.71647|D|inputHelper|           Found 0 FFB binding candidates to be assigned for action "steering" in vehicle 'etk800', vehicle ID 169327 (sorted by suitability)
+575.71647|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+575.71650|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+575.71651|D|inputHelper|           Found 1 FFB binding candidates to be assigned for action "accelerate" in vehicle 'etk800', vehicle ID 169327 (sorted by suitability)
+575.71651|D|inputHelper|            * playerBinding: Player 0, devName "keyboard0", control "up"
+575.71651|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+575.71651|D|inputHelper| Step 1: No matches found for player 0, device 'keyboard0', control 'up' (abandoning search on this device)
+575.71652|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+575.71653|D|inputHelper|           Found 1 FFB binding candidates to be assigned for action "brake" in vehicle 'etk800', vehicle ID 169327 (sorted by suitability)
+575.71653|D|inputHelper|            * playerBinding: Player 0, devName "keyboard0", control "down"
+575.71653|D|inputRegistry| Found 0 FFBInterface candidates (unsorted)
+575.71653|D|inputHelper| Step 1: No matches found for player 0, device 'keyboard0', control 'down' (abandoning search on this device)
+575.71654|D|inputHelper| Step 2: No matches found for player 0, device 'keyboard0' (abandoning search on this device)
+575.71861|D|GELua.scenario_scenarios.scenarios| vehicle id: 169327 = ego
+576.30517|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+576.31233|D|GELua.gameplay_playmodeMarkers.| Playmode clusters and markers cleared
+576.52906|D|GELua.scenario_scenarios.scenarios| changeState: running
+576.52932|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+576.52948|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+576.64614|D|GELua.scenario_scenarios.scenarios| onScenarioUIReady(play)
+576.64615|D|GELua.scenario_scenarios.scenarios| should run: false; state: running
+576.65864|D|GELua.tech_techCore.TechGE| Created sensor 6 of type 'IMU' with name 'imu'
+576.65866|I|GELua.tech_techCore.TechGE| Opened AdvancedIMU sensor
+578.40632|I|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:23| ERROR: streamUpdate cycle is already active, skipping this update of streams
+578.46669|I|libbeamng.TechCom| Started listening on 127.0.0.1/36087.
+578.49997|I|GELua.tech_techCore.TechGE| New vehicle connection: 169327, 36087
+578.50230|D|GELua.tech_techCore.TechGE| Created sensor 7 of type 'GPS' with name 'gps'
+578.50230|I|GELua.tech_techCore.TechGE| Opened GPS sensor
+578.56470|E|GELua.TechCom| Error reading from socket: closed
+578.56471|E|GELua.TechCom| Error reading from socket: tcp{client}: 0x7f9cfc6967c0 - closed
+579.56889|I|libbeamng.TechVE| Accepted new vehicle client: 127.0.0.1/43090
+579.57843|D|GELua.scenario_scenarios.scenarios| changeState: running
+579.57851|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+579.57857|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with ETK 800-Series
+579.59572|D|GELua.tech_techCore.TechGE| Created sensor 8 of type 'IMU' with name 'imu'
+579.59573|I|GELua.tech_techCore.TechGE| Opened AdvancedIMU sensor
+579.62925|D|GELua.tech_techCore.TechGE| Created sensor 9 of type 'GPS' with name 'gps'
+579.62926|I|GELua.tech_techCore.TechGE| Opened GPS sensor
+579.78778|I|updateHTMLTextures| 169327:VehicleTex-@licenseplate-52-11-specular will destroy updateRequested true
+579.78779|I|updateHTMLTextures| 169327:VehicleTex-@licenseplate-52-11-normal will destroy updateRequested true
+579.78779|I|updateHTMLTextures| 169327:VehicleTex-@licenseplate-52-11 will destroy updateRequested true
+579.80341|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.shiftermode
+579.80343|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.shiftermode transmissionM
+584.14950|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66| [messages] deriveIconForCategory vehicle.shiftermode
+584.14951|D|CEF.MainGEUI#local://local/ui/ui-vue/dist/index.js:66|  -> match: vehicle.shiftermode transmissionM
+589.79570|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11-specular
+589.79571|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11-specular` rendered=0 requested=15 updateRequested=false
+589.80379|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11-normal
+589.80379|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11-normal` rendered=0 requested=15 updateRequested=false
+589.80529|E|updateHTMLTextures| Frame not rendered: VehicleTex-@licenseplate-52-11
+589.80530|D|CEF tex CHK| `VehicleTex-@licenseplate-52-11` rendered=0 requested=15 updateRequested=false
+631.87072|I|handleAppEvent| Window closed
+631.87081|I|handleAppEvent| Window closed
+631.88732|D|shutdown| *** shutdown ***
+631.92501|I|GELua.|      112 bytes     0.04 ms TOTAL onPreExit()
+631.92503|I|GELua.|      112 bytes     0.04 ms   extensions.onPreExit
+631.92946|I|GELua.server.lua| *** Level ended: /levels/italy/main.level.json
+631.97134|D|GELua.util_richPresence.Rich Presence| Playing v2v_telemetry on Italy with  
+631.98868|D|GELua.core_input_bindings.bindings| Loaded 300 bindings for device keyboard0
+631.98896|D|GELua.core_input_bindings.bindings| Loaded 20 bindings for device mouse0
+634.85497|D|fmod| project_ambient_maps.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.bank'
+634.85507|D|fmod| project_ambient_maps.assets.bank: Closing project '/art/sound/fmod/desktop/ambient_maps.assets.bank'
+635.10912|D|vfs| Empty path will be resolved to root but should not be used: '' -> ''
+635.11632|I|GELua.postFx| % - PostFX Manager - Save complete. Preset saved at : settings/postfxSettings.postfx
+635.12765|I|GELua.|  3203365 bytes  3202.20 ms TOTAL onExit()
+635.12766|I|GELua.|    32768 bytes     4.31 ms   extensions.onExit
+635.12766|I|GELua.|        0 bytes     0.00 ms   disconnectWrapper.bool
+635.12767|I|GELua.|      160 bytes     0.00 ms   disconnectActual.physicsStopSimulation
+635.12767|I|GELua.|        0 bytes     0.01 ms   disconnectActual.findCanvas
+635.12768|I|GELua.|        0 bytes     0.01 ms   disconnectActual.hideMouse
+635.12768|I|GELua.|        0 bytes     0.01 ms   disconnectActual.setVars
+635.12768|I|GELua.|        0 bytes     0.01 ms   server.destroy.setvar (x2)
+635.12768|I|GELua.|      136 bytes     0.03 ms   endMission.vars
+635.13023|I|GELua.|   124112 bytes    19.70 ms   endMission.clientEndMission
+635.13024|I|GELua.|        0 bytes     0.00 ms   endMission.editorGui
+635.13024|I|GELua.|        0 bytes     0.00 ms   endMission.audio
+635.13025|I|GELua.|        0 bytes     1.71 ms   endMission.decals
+635.13025|I|GELua.|  3002117 bytes   593.73 ms   endMission.deleteObjects
+635.13026|I|GELua.|        0 bytes  2261.34 ms   endMission.delete
+635.13026|I|GELua.|       64 bytes     6.73 ms   endMission.cleanup
+635.13026|I|GELua.|       64 bytes    17.26 ms   endMission.levelLoading
+635.13027|I|GELua.|        0 bytes     0.00 ms   endMission.clearLogs
+635.13027|I|GELua.|        0 bytes     0.00 ms   endMission.finalSet
+635.13028|I|GELua.|        0 bytes     0.00 ms   server.destroy.endMission
+635.13028|I|GELua.|        0 bytes    13.74 ms   server.destroy.physics
+635.13028|I|GELua.|        0 bytes   265.24 ms   server.destroy.datablocks
+635.13029|I|GELua.|        0 bytes     0.01 ms   server.destroy.sessioncount
+635.13029|I|GELua.|        0 bytes     0.00 ms   server.destroy.rawsets
+635.13029|I|GELua.|        0 bytes     0.00 ms   disconnectActual.server
+635.13029|I|GELua.|        0 bytes     4.57 ms   disconnectActual.filename
+635.13030|I|GELua.|        0 bytes     0.00 ms   disconnectActual.requestExitLoadingScreen
+635.13030|I|GELua.|        0 bytes     0.00 ms   disconnectActual.callback
+635.13030|I|GELua.|        0 bytes     0.00 ms   disconnectWrapper.help
+635.13031|I|GELua.|        0 bytes     0.00 ms   noLoadingScreenDisconnect
+635.13031|I|GELua.|        0 bytes     0.00 ms   PhysicsPlugin
+635.13031|I|GELua.|        0 bytes     0.00 ms   ParentOnExit
+635.13031|I|GELua.|       64 bytes     0.66 ms   MainEventManager.find
+635.13032|I|GELua.|        0 bytes     0.78 ms   MainEventManager.onExit
+635.13032|I|GELua.|    18224 bytes     1.19 ms   savePostFx
+635.13033|I|GELua.|    25656 bytes    11.13 ms   settings
+635.80396|E|OnProcessMessageReceived| __fdone: unable to assign framesRendered, strong_ref does not exist
+636.04025|D|shutdown| Discord shutting down ...
+636.25538|I|shutdown| This part of shutdown procedure took 4.37 seconds. These are the sub-stages that took more than 10ms to shutdown: stopCommandListener: 36ms, LUA.onExit: 3205ms, ModuleManager.shutdown.BBEF_SHUT:GFXModule: 175ms, ModuleManager.shutdown.SFXModule: 456ms, ModuleManager.shutdown.BBEF_SHUT:Sim: 15ms, ModuleManager.shutdown.Sim: 19ms, ModuleManager.shutdown.ModuleCEF: 139ms, ModuleManager.shutdown.GameEngineLua: 98ms, ModuleManager.shutdown.BBEF_SHUT:MaterialManagerModule: 74ms, ModuleManager.shutdown.GFXModule: 112ms, fpsLimiterShutdown: 12ms

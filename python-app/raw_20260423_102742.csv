@@ -1,0 +1,1 @@
+wall_time,frame_type,mcu_ts_ms,ax_ms2,ay_ms2,az_ms2,gx_rads,gy_rads,gz_rads,gps_lat,gps_lon,gps_speed_kmh,hdop,satellites,fix_valid,obd_speed_kmh,lora_node,lora_lat,lora_lon,lora_speed_kmh,lora_alert,lora_rssi_dbm,lora_snr_db
